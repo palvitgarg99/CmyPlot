@@ -2,12 +2,15 @@
 from app import app
 
 # local imports
-from utils.routes import handle_routes
 from environment.settings import APP_HOST, APP_PORT, APP_DEBUG, DEV_TOOLS_PROPS_CHECK
+
+# initializes all callbacks
+import utils.routes
+import pages.upload.upload_callbacks
+import pages.table.table_callbacks
 
 # initialize services
 server = app.server
-handle_routes
 
 # site endpoint
 
