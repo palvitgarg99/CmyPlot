@@ -1,13 +1,13 @@
 # package imports
 from dash.dependencies import Input, Output, State
 
-# TODO remove this import
-from dash import html
-
 # local imports
 from app import app
 from layout import navbar
 from pages.home import home
+from pages.bad_url import bad_url
+from pages.upload import upload
+from pages.table import table
 
 
 @app.callback(
@@ -55,7 +55,9 @@ def handle_routes(pathname):
 
     if pathname == '/' or pathname == home.path:
         return home.layout
-    elif pathname == '/about':
-        return html.Div('About')
+    elif pathname == upload.path:
+        return upload.layout
+    elif pathname == table.path:
+        return table.layout
     else:
-        return html.Div('404')
+        return bad_url.layout

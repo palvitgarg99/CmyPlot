@@ -3,6 +3,8 @@ import dash_bootstrap_components as dbc
 
 # local imports
 from pages.home import home
+from pages.upload import upload
+from pages.table import table
 
 # set contansts
 toggler = 'id-navbar-toggler'
@@ -11,7 +13,8 @@ navbar = dbc.Navbar(
     dbc.Container(
         [
             dbc.NavbarBrand(
-                'Example',
+                # TODO update with name of site
+                'SE Project 1',
                 href='/'
             ),
             dbc.NavbarToggler(id=toggler),
@@ -24,11 +27,16 @@ navbar = dbc.Navbar(
                                 href=home.path
                             )
                         ),
-                        # TODO remove the following NavItem
                         dbc.NavItem(
                             dbc.NavLink(
-                                'About',
-                                href='/about'
+                                upload.title,
+                                href=upload.path
+                            )
+                        ),
+                        dbc.NavItem(
+                            dbc.NavLink(
+                                table.title,
+                                href=table.path
                             )
                         )
                     ],
