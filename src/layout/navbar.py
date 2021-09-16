@@ -5,6 +5,7 @@ import dash_bootstrap_components as dbc
 from pages.home import home
 from pages.upload import upload
 from pages.table import table
+from pages.graph import graph
 
 # set contansts
 toggler = 'id-navbar-toggler'
@@ -37,6 +38,12 @@ navbar = dbc.Navbar(
                             dbc.NavLink(
                                 table.title,
                                 href=table.path
+                            )
+                        ),
+                        dbc.NavItem(
+                            dbc.NavLink(
+                                graph.title,
+                                href=graph.path
                             )
                         )
                     ],
