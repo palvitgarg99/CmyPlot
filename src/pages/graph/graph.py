@@ -28,9 +28,7 @@ layout = dbc.Container(
                 dbc.Col(
                     dcc.Graph(
                         id=graph_id,
-                        config=graph_config,
-                        animate=True,
-                        responsive=True
+                        config=graph_config
                     ),
                     className='col-lg-8'
                 )

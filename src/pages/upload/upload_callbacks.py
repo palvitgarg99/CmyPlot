@@ -55,4 +55,4 @@ def update_upload(contents, filename):
         return error_text, None
 
     succ_text = 'File uploaded successfully: ' + filename
-    return succ_text, df.to_dict('records')
+    return succ_text, {'df': df.to_dict('records')}
