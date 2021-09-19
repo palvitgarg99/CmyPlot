@@ -12,7 +12,6 @@ buttons_to_remove = [
 graph_config = {
     'modeBarButtonsToRemove': buttons_to_remove,
     'displaylogo': False,
-    'editable': True,
     'showTips': True,
     'toImageButtonOptions': {
         'filename': 'se_project1'

@@ -1,5 +1,5 @@
 # package imports
-from dash.dependencies import Input, Output, State
+from dash.dependencies import ALL, Input, Output, State
 from dash.exceptions import PreventUpdate
 from dash import callback_context
 import pandas as pd
@@ -9,14 +9,14 @@ import plotly.express as px
 from app import app
 from layout.layout import store_id
 from utils.functions import fetch_columns_options
-from components import graph_options
+from pages.graph.components import graph_options as go
 from pages.graph import graph
 
 
 @app.callback(
-    Output(graph_options.collapse, 'is_open'),
-    Input(graph_options.toggler, 'n_clicks'),
-    State(graph_options.collapse, 'is_open')
+    Output(go.collapse, 'is_open'),
+    Input(go.toggler, 'n_clicks'),
+    State(go.collapse, 'is_open')
 )
 def handle_accordian_collapse(go_clicks, go_open):
     """Handle toggling the various accordian collapses
@@ -43,17 +43,14 @@ def handle_accordian_collapse(go_clicks, go_open):
         button_id = ctx.triggered[0]["prop_id"].split(".")[0]
 
     # Open specific accordian item
-    if button_id == graph_options.toggler and go_clicks:
+    if button_id == go.toggler and go_clicks:
         return not go_open
     else:
         raise PreventUpdate
 
 
 @app.callback(
-    Output(graph_options.x_att, 'options'),
-    Output(graph_options.y_att, 'options'),
-    Output(graph_options.color, 'options'),
-    Output(graph_options.size, 'options'),
+    Output({'type': go.att_drop, 'index': ALL}, 'options'),
     Input(store_id, 'data')
 )
 def fetch_columns_from_data(data):
@@ -76,49 +73,65 @@ def fetch_columns_from_data(data):
 
     options = fetch_columns_options(data['df'])
 
-    return options, options, options, options
+    return [options for i in range(len(go.attributes))]
 
 
 @app.callback(
     Output(graph.graph_id, 'figure'),
     Input(store_id, 'data'),
-    Input(graph_options.x_att, 'value'),
-    Input(graph_options.y_att, 'value'),
-    Input(graph_options.color, 'value'),
-    Input(graph_options.size, 'value')
+    Input({'type': go.att_drop, 'index': ALL}, 'value'),
+    Input({'type': go.label_input, 'index': ALL}, 'value'),
+    Input(go.graph_height, 'value')
 )
-def create_figure(data, x_att, y_att, color, size):
+def create_figure(data, att_values, label_values, height):
     """Handle options for graph option dropdowns
 
     Parameters
     ----------
         data: dict
             data from stored dcc.Store component
+        att_values: list
+            List of values returned from the attribute dropdowns
+        label_values: list
+            List of values for various labels
+        height: int
+            Height of graph in pixels
 
     Returns
     ----------
-        options: list of dict
-            Options for each of the dropdowns in the form of
-            {'label': 'Example', 'value': 'example'}
+        figure: plotly.graph_objects.Figure
+            Created graph object
     """
 
-    if data is None or all(i is None for i in [x_att, y_att, size, color]):
+    if data is None or all(i is None for i in att_values):
         raise PreventUpdate
+
+    attributes = dict(zip(go.attributes, att_values))
+    labels = dict(zip(go.labels, label_values))
 
     df = pd.DataFrame(data['df'])
 
-    x = x_att if x_att else None
-    y = y_att if y_att else None
-    size = size if size else None
-    color = color if color else None
+    graph_labels = {}
 
-    print('Rendering: ', [x, y, size, color])
+    # Set the x and y axis labels
+    x_att = attributes[go.x_att]
+    x_lab = labels[go.x_lab]
+    graph_labels[x_att] = x_lab if (x_att and x_lab) else x_att
+
+    y_att = attributes[go.y_att]
+    y_lab = labels[go.y_lab]
+    graph_labels[y_att] = y_lab if (y_att and y_lab) else y_att
+
+    # create the scatter plot
     figure = px.scatter(
         df,
-        x=x,
-        y=y,
-        size=size,
-        color=color
+        x=x_att,
+        y=y_att,
+        size=attributes[go.size],
+        color=attributes[go.color],
+        title=labels[go.title],
+        labels=graph_labels,
+        height=height
     )
 
     return figure
