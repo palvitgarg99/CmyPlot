@@ -106,14 +106,16 @@ def create_figure(data, att_values, label_values, height):
     if data is None or all(i is None for i in att_values):
         raise PreventUpdate
 
+    # zip keys with values for easy dictionary access
     attributes = dict(zip(go.attributes, att_values))
     labels = dict(zip(go.labels, label_values))
 
+    # prep data
     df = pd.DataFrame(data['df'])
 
+    # Set the x and y axis labels
     graph_labels = {}
 
-    # Set the x and y axis labels
     x_att = attributes[go.x_att]
     x_lab = labels[go.x_lab]
     graph_labels[x_att] = x_lab if (x_att and x_lab) else x_att
