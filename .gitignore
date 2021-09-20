@@ -130,3 +130,7 @@ dmypy.json
 
 # don't want to track by git
 project1_env/
+
+cache-directory
+
+project1.egg-info
