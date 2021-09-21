@@ -8,12 +8,12 @@ from environment.settings import APP_HOST, APP_PORT, APP_DEBUG, DEV_TOOLS_PROPS_
 import utils.routes
 import pages.upload.upload_callbacks
 import pages.table.table_callbacks
+import pages.graph.graph_callbacks
 
 # initialize services
 server = app.server
 
 # site endpoint
-
 if __name__ == '__main__':
     app.run_server(
         host=APP_HOST,

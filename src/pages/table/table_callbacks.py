@@ -4,6 +4,7 @@ from dash.exceptions import PreventUpdate
 
 # local imports
 from app import app
+from utils.functions import fetch_columns_options
 from pages.table import table
 from layout.layout import store_id
 
@@ -29,5 +30,5 @@ def initialize_table_data(data):
     if data is None:
         raise PreventUpdate
 
-    cols = [{'name': i, 'id': i} for i in data[0]]
-    return data, cols
+    cols = fetch_columns_options(data['df'], table=True)
+    return data['df'], cols

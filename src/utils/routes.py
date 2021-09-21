@@ -8,6 +8,7 @@ from pages.home import home
 from pages.bad_url import bad_url
 from pages.upload import upload
 from pages.table import table
+from pages.graph import graph
 
 
 @app.callback(
@@ -59,5 +60,7 @@ def handle_routes(pathname):
         return upload.layout
     elif pathname == table.path:
         return table.layout
+    elif pathname == graph.path:
+        return graph.layout
     else:
         return bad_url.layout
