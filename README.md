@@ -1,6 +1,8 @@
 # Data Visualisation App. 
 
 
+
+[![DOI](https://zenodo.org/badge/402902282.svg)](https://zenodo.org/badge/latestdoi/402902282)
 ![example event parameter](https://github.com/bradley-erickson/project1/actions/workflows/python-app.yml/badge.svg?event=push)
 
 
