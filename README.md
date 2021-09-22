@@ -1,7 +1,7 @@
 # Data Visualisation App. 
 
 
-
+![example event parameter](https://github.com/bradley-erickson/project1/actions/workflows/python-app.yml/badge.svg?event=pull)
 
 
 #### How to run the project:
