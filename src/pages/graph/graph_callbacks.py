@@ -40,7 +40,7 @@ def handle_accordian_collapse(go_clicks, go_open):
     if not ctx.triggered:
         raise PreventUpdate
     else:
-        button_id = ctx.triggered[0]["prop_id"].split(".")[0]
+        button_id = ctx.triggered[0]['prop_id'].split('.')[0]
 
     # Open specific accordian item
     if button_id == go.toggler and go_clicks:

@@ -74,6 +74,6 @@ layout = dbc.Container(
                 className='py-3',
             ),
             className='my-2 bg-light rounded-3',
-        )        
+        )
     ]
 )
