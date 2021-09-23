@@ -15,7 +15,7 @@ layout = dbc.Container(
         html.H1('Table'),
         dash_table.DataTable(
             id=table_id,
-            page_size=50,
+            page_size=20,
             sort_action='native',
             filter_action='native',
             style_data_conditional=[

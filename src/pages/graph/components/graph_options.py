@@ -51,7 +51,8 @@ def create_attribute_dropdown(attributes, id):
                 id={
                     'type': id,
                     'index': i
-                }
+                },
+                className='dash-bootstrap'
             )
         )
 
@@ -82,7 +83,8 @@ def create_label_dropdown(labels, id):
                     'type': id,
                     'index': i
                 },
-                type='text'
+                type='text',
+                className='dash-bootstrap'
             )
         )
 
@@ -121,7 +123,7 @@ card = dbc.Card(
                         min=100,
                         max=1000,
                         step=50,
-                        value=500
+                        value=700
                     )
                 ]
             ),

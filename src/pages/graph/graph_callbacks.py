@@ -8,7 +8,7 @@ import plotly.express as px
 # local imports
 from app import app
 from layout.layout import store_id
-from utils.functions import fetch_columns_options
+import utils.functions as func
 from pages.graph.components import graph_options as go
 from pages.graph import graph
 
@@ -40,7 +40,7 @@ def handle_accordian_collapse(go_clicks, go_open):
     if not ctx.triggered:
         raise PreventUpdate
     else:
-        button_id = ctx.triggered[0]["prop_id"].split(".")[0]
+        button_id = ctx.triggered[0]['prop_id'].split('.')[0]
 
     # Open specific accordian item
     if button_id == go.toggler and go_clicks:
@@ -68,10 +68,10 @@ def fetch_columns_from_data(data):
             {'label': 'Example', 'value': 'example'}
     """
 
-    if data is None:
+    if not func.validate_store_data(data):
         raise PreventUpdate
 
-    options = fetch_columns_options(data['df'])
+    options = func.fetch_columns_options(data['df'])
 
     return [options for i in range(len(go.attributes))]
 
@@ -103,7 +103,7 @@ def create_figure(data, att_values, label_values, height):
             Created graph object
     """
 
-    if data is None or all(i is None for i in att_values):
+    if not func.validate_store_data(data) or all(i is None for i in att_values):
         raise PreventUpdate
 
     # zip keys with values for easy dictionary access

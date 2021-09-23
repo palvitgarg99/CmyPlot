@@ -1,7 +1,7 @@
 # package imports
 import base64
 import io
-from dash.dependencies import Input, Output, State
+from dash.dependencies import ALL, Input, Output, State
 from dash.exceptions import PreventUpdate
 import pandas as pd
 
@@ -56,3 +56,26 @@ def update_upload(contents, filename):
 
     succ_text = 'File uploaded successfully: ' + filename
     return succ_text, {'df': df.to_dict('records')}
+
+
+@app.callback(
+    Output({'type': upload.buttons_id, 'index': ALL}, 'disabled'),
+    Input(store_id, 'data')
+)
+def set_button_status(data):
+    """Set buttons to disabled or not
+
+    Parameters
+    ----------
+        data: dict
+            data from stored dcc.Store component
+
+    Returns
+    ----------
+        disabled: bool
+            Determine if the buttons should be disabled or not
+    """
+
+    if data['df']:
+        return [False, False]
+    return [True, True]
