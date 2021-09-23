@@ -23,14 +23,14 @@ layout = dbc.Container(
                     [
                         graph_options.card,
                     ],
-                    className='col-lg-4'
+                    className='col-lg-3'
                 ),
                 dbc.Col(
                     dcc.Graph(
                         id=graph_id,
                         config=graph_config
                     ),
-                    className='col-lg-8'
+                    className='col-lg-9'
                 )
             ]
         )

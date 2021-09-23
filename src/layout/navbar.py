@@ -1,4 +1,5 @@
 # package imports
+from dash import html
 import dash_bootstrap_components as dbc
 
 # local imports
@@ -14,8 +15,10 @@ navbar = dbc.Navbar(
     dbc.Container(
         [
             dbc.NavbarBrand(
-                # TODO update with name of site
-                'SE Project 1',
+                [
+                    html.I(className='far fa-chart-bar pr-1'),
+                    'CmyPlot'
+                ],
                 href='/'
             ),
             dbc.NavbarToggler(id=toggler),
@@ -54,7 +57,5 @@ navbar = dbc.Navbar(
             )
         ]
     ),
-    sticky='fixed',
-    color='primary',
-    dark=True
+    sticky='fixed'
 )
