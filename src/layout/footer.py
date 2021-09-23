@@ -8,7 +8,7 @@ footer = html.Footer(
         [
             html.A(
                 [
-                    html.I('fab fa-github pr-1'),
+                    html.I(className='fab fa-github pr-1'),
                     'Github'
                 ],
                 href='https://github.com/bradley-erickson/CmyPlot',
@@ -17,7 +17,7 @@ footer = html.Footer(
             html.Br(),
             html.A(
                 [
-                    html.I('fas fa-at pr-1'),
+                    html.I(className='fas fa-at pr-1'),
                     'Citation information'
                 ],
                 href='https://doi.org/10.5281/zenodo.5521547',
