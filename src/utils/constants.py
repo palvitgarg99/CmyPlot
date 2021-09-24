@@ -14,6 +14,6 @@ graph_config = {
     'displaylogo': False,
     'showTips': True,
     'toImageButtonOptions': {
-        'filename': 'se_project1'
+        'filename': 'CmyPlot'
     }
 }
