@@ -1,11 +1,17 @@
-# Data Visualisation App. 
+# CmyPlot 
+Data Visualisation App. 
 
 
 
 [![DOI](https://zenodo.org/badge/402902282.svg)](https://zenodo.org/badge/latestdoi/402902282)
 ![example event parameter](https://github.com/bradley-erickson/project1/actions/workflows/python-app.yml/badge.svg?event=push)
 
+## Built with
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30" height="30" />
+<img src="docs/images/custom_icons/plotly_icon.png" width="30" height="30"/>
+
+## Demo
 #### How to run the project:
 
 - To run/test the site locally:
