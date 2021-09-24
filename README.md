@@ -12,6 +12,10 @@ Data Visualisation App.
 <img src="docs/images/custom_icons/plotly_icon.png" width="30" height="30"/>
 
 ## Demo
+https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-876c-3f5ff7d86e38.mp4
+
+
+
 #### How to run the project:
 
 - To run/test the site locally:
