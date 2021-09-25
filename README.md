@@ -1,5 +1,5 @@
 # CmyPlot  
-**Data Visualisation Web App** <img src = "docs/images/theme.png" width = "150" height = "70">
+**Data Visualisation Web App** 
 
 
 
@@ -22,7 +22,7 @@ As the famous saying goes - `"The greatest value of visualization is when it for
 
 - **Language used:** Python
 - **Libraries used:** Flask, Plotly, Dash
-## Would like to have a quick preview?
+## Visual Walkthrough:
 https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-876c-3f5ff7d86e38.mp4
 
 ## Quick look:
@@ -31,53 +31,67 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
 
   <tr style="background: #010203 ">
     <td valign="left"> 
-        <p> hello 
-        </p>
+      <p style="color: #FF7A59"> 1.This is the main Cmyplot web page 
+      </p>
       <a href="./docs/images/home_page.png"> 
         <img src="./docs/images/home_page.png" >      
       </a>
     </td>
     <td valign="left"> 
+      <p style="color: #FF7A59"> 2.You have an option to upload your csv file 
+        by Drag and drop or click
+      </p>
       <a href="./docs/images/pre_upload.png">
-        <img src="./docs/images/pre_upload.png">     </td>
+        <img src="./docs/images/pre_upload.png"> 
       </a>
     </td>
+  </tr>
   
   <tr style="background: #010203;"> 
-    <td valign="left"> 
+    <td valign="left">
+      <p style="color: #FF7A59"> 3.Once the file is uploaded, you can choose
+         to visulaize using either table or graph
+      </p>  
       <a href="./docs/images/post_upload.png">
         <img src="./docs/images/post_upload.png">    
       </a>
     </td>
+    <td valign="left"> 
+      <p style="color: #FF7A59"> 4.For table, you could use 
+      filters to sort the data as you want
+      </p>
+      <a href="./docs/images/table.png">
+        <img src="./docs/images/table.png">          
+      </a>
+    </td>
 
   </tr> 
   
   <tr style="background: #010203;"> 
-     <td valign="left"> 
-      <a href="./docs/images/table.png">
-        <img src="./docs/images/table.png">          
-      </a>
-    </td> 
-    <td valign="left"> 
-      <a href="./docs/images/table_filtered.png">
+    <td valign="left">
+     <p style="color: #FF7A59"> 5.Table representation of the data
+      </p>
+     <a href="./docs/images/table_filtered.png">
         <img src="./docs/images/table_filtered.png"> 
-      </a>
-    </td>
-
+      </a> 
+    </td> 
+    <td valign="left">
+     <p style="color: #FF7A59"> 6.Graph representation of the data
+      </p>
+     <a href="./docs/images/table_filtered.png">
+        <img src="./docs/images/graph_filled.png"> 
+      </a> 
+    </td> 
   </tr> 
 
-  <tr style="background: #010203;"> 
-<td valign="left"> 
-      <a href="./docs/images/graph_empty.png">
-        <img src="./docs/images/graph_empty.png">    
-      </a>
-    </td>
-    <td valign="left"> 
+  <!-- <tr style="background: #010203;"> 
+    <td valign = "center">
       <a href="./docs/images/graph_filled.png">
         <img src="./docs/images/graph_filled.png"> 
       </a>
     </td>
-  </tr> 
+    
+  </tr>  -->
  </table>
    
 ## Getting started:
@@ -113,13 +127,16 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
 
      - Site will be hosted at:
        `http://127.0.0.1:8085/`
-     - [Refer the demo video to understand usage of this app.](https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-876c-3f5ff7d86e38.mp4)
-## Roadmap
+     ## Roadmap
 
 ## Team Members
 [Bradley Erickson](https://github.com/bradley-erickson)
-[Aakriti](https://github.com/aakriti0fnu)
+
+[Aakriti Aakriti](https://github.com/aakriti0fnu)
+
 [Sharath Kumar](https://github.com/sharathKV)
+
 [AshwinKumarMuniswamy](https://github.com/AshwinKumarMuniswamy)
-[Jainam](https://github.com/j-08-shah)
+
+[Jainam Shah](https://github.com/j-08-shah)
 
