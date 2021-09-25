@@ -1,45 +1,123 @@
-# CmyPlot 
-Data Visualisation App. 
+# CmyPlot  
+**Data Visualisation Web App** <img src = "docs/images/theme.png" width = "150" height = "70">
 
 
 
 [![DOI](https://zenodo.org/badge/402902282.svg)](https://zenodo.org/badge/latestdoi/402902282)
 ![example event parameter](https://github.com/bradley-erickson/project1/actions/workflows/python-app.yml/badge.svg?event=push)
 
-## Built with
+## Why Data Visualization?
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30" height="30" />
-<img src="docs/images/custom_icons/plotly_icon.png" width="30" height="30"/>
+With enormous data in hand you would always want to visualize it for good understanding and better clarity with minimal efforts. 
 
-## Demo
+As the famous saying goes - `"The greatest value of visualization is when it forces us to notice what we never expected to see"` - John W. Tukey
+
+`CmyPlot` is a web app that provides interface for uploading a csv data file and convert it into Tables and intresting graphs with one click
+
+- ## Built with
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" />
+  <img src="docs/images/custom_icons/plotly_icon.png" width="40" height="40"/>
+  <img src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="40" height="40"/>
+
+- **Language used:** Python
+- **Libraries used:** Flask, Plotly, Dash
+## Would like to have a quick preview?
 https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-876c-3f5ff7d86e38.mp4
 
+## Quick look:
 
+<table border="5" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
 
-#### How to run the project:
+  <tr style="background: #aaa ">
+    <td valign="left"> 
+      <a href="./docs/images/home_page.png">
+        <img src="./docs/images/home_page.png" alt="Made with Angular"  >      
+      </a>
+    </td>
+    <td valign="left"> 
+      <a href="./docs/images/pre_upload.png">
+        <img src="./docs/images/pre_upload.png">     </td>
+      </a>
+    </td>
+  
+  <tr style="background: #aaa;"> 
+    <td valign="left"> 
+      <a href="./docs/images/post_upload.png">
+        <img src="./docs/images/post_upload.png">    
+      </a>
+    </td>
+    <td valign="left"> 
+      <a href="./docs/images/table.png">
+        <img src="./docs/images/table.png">          
+      </a>
+    </td>
+  </tr> 
+  
+  <tr style="background: #aaa;"> 
+    <td valign="left"> 
+      <a href="./docs/images/table_filtered.png">
+        <img src="./docs/images/table_filtered.png"> 
+      </a>
+    </td>
+    <td valign="left"> 
+      <a href="./docs/images/graph_empty.png">
+        <img src="./docs/images/graph_empty.png">    
+      </a>
+    </td>
+  </tr> 
 
-- To run/test the site locally:
+  <tr style="background: #aaa;"> 
+    <td valign="left"> 
+      <a href="./docs/images/graph_filled.png">
+        <img src="./docs/images/graph_filled.png"> 
+      </a>
+    </td>
+    <td valign="left">
+      <a href="">
+        <img src="">    
+      </a>
+    </td>
+  </tr> 
+ </table>
+   
+## Getting started:
 
-  - Make the dev environment ready:
+  - ### Prerequisite:
+      - Download [Python3.x](https://www.python.org/downloads/) on your system.
 
-    - create an virtual environment:
+   - ### Installation:
+      E.g If you downloaded `Python 3.9.7` above, then
 
-      `python3 -m venv project1_env`
+      **Steps to setup virtual environment**
+     - Create a virtual environment:
+
+        `python3.9 -m venv project1_env`
     
-    - activate the virtual environment:
+     - Activate the virtual environment: 
+
+        `source project1_env/bin/activate`
     
-      `source project1_env/bin/activate`
-    
-    - build the virtual environment:
+     - Build the virtual environment:(must be present in [project directory](./))
 
-      `pip install -r requirements.txt`
-  - run site:
+        `pip install -r requirements.txt`
 
-    ```
-    python src/index.py
-    ```
+  - ### Run Instructions
 
-    It will be hosted at:
+     **To run/test the site locally:**
 
-    `http://127.0.0.1:8085/`
+     - Clone [this (CmyPlot) github repo](https://github.com/bradley-erickson/CmyPlot).
+
+     - Navigate to [project directory](./).
+  
+     - Run `python src/index.py`
+
+     - Site will be hosted at:
+       `http://127.0.0.1:8085/`
+     - [Refer the demo video to understand usage of this app.](https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-876c-3f5ff7d86e38.mp4)
+## Roadmap
+
+## Team Members
+
+
 
