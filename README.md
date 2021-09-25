@@ -27,12 +27,14 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
 
 ## Quick look:
 
-<table border="5" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
+<table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
 
-  <tr style="background: #aaa ">
+  <tr style="background: #010203 ">
     <td valign="left"> 
-      <a href="./docs/images/home_page.png">
-        <img src="./docs/images/home_page.png" alt="Made with Angular"  >      
+        <p> hello 
+        </p>
+      <a href="./docs/images/home_page.png"> 
+        <img src="./docs/images/home_page.png" >      
       </a>
     </td>
     <td valign="left"> 
@@ -41,41 +43,38 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
       </a>
     </td>
   
-  <tr style="background: #aaa;"> 
+  <tr style="background: #010203;"> 
     <td valign="left"> 
       <a href="./docs/images/post_upload.png">
         <img src="./docs/images/post_upload.png">    
       </a>
     </td>
-    <td valign="left"> 
+
+  </tr> 
+  
+  <tr style="background: #010203;"> 
+     <td valign="left"> 
       <a href="./docs/images/table.png">
         <img src="./docs/images/table.png">          
       </a>
-    </td>
-  </tr> 
-  
-  <tr style="background: #aaa;"> 
+    </td> 
     <td valign="left"> 
       <a href="./docs/images/table_filtered.png">
         <img src="./docs/images/table_filtered.png"> 
       </a>
     </td>
-    <td valign="left"> 
+
+  </tr> 
+
+  <tr style="background: #010203;"> 
+<td valign="left"> 
       <a href="./docs/images/graph_empty.png">
         <img src="./docs/images/graph_empty.png">    
       </a>
     </td>
-  </tr> 
-
-  <tr style="background: #aaa;"> 
     <td valign="left"> 
       <a href="./docs/images/graph_filled.png">
         <img src="./docs/images/graph_filled.png"> 
-      </a>
-    </td>
-    <td valign="left">
-      <a href="">
-        <img src="">    
       </a>
     </td>
   </tr> 
@@ -118,6 +117,9 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
 ## Roadmap
 
 ## Team Members
-
-
+[Bradley Erickson](https://github.com/bradley-erickson)
+[Aakriti](https://github.com/aakriti0fnu)
+[Sharath Kumar](https://github.com/sharathKV)
+[AshwinKumarMuniswamy](https://github.com/AshwinKumarMuniswamy)
+[Jainam](https://github.com/j-08-shah)
 
