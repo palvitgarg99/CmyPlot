@@ -11,7 +11,7 @@ This document is a quick guide through for you guys with all the steps from  new
 ### Issue Check
 - First step would be to check if any [issue](https://github.com/bradley-erickson/CmyPlot/issues) does exist towards which a contribution can be made.
 
-- Use [labels]() to scan through the existing issues.
+- Use [labels](https://github.com/bradley-erickson/CmyPlot/blob/ashwin_contribution.md/contributing/labels-guide.md) to scan through the existing issues.
 
 ### New Issue
 - If some bugs are found and needs some fixing, please create a [new issue](https://github.com/bradley-erickson/CmyPlot/issues) by clicking on the `New issue` option.
