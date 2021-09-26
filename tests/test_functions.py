@@ -1,4 +1,4 @@
-from src.utils import functions as func
+from plotting.utils import functions as func
 
 
 def test_fetch_columns_options():

@@ -1,4 +1,4 @@
-from src.pages.graph.components import graph_options as go
+from plotting.pages.graph.components import graph_options as go
 
 
 def test_create_attribute_dropdown():

@@ -1,4 +1,4 @@
-from src.utils.routes import navbar_toggle
+from plotting.utils.routes import navbar_toggle
 
 
 def test_navbar_toggle():

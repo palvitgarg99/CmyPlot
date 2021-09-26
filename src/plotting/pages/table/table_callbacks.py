@@ -3,10 +3,10 @@ from dash.dependencies import Input, Output
 from dash.exceptions import PreventUpdate
 
 # local imports
-from app import app
-from utils.functions import fetch_columns_options
-from pages.table import table
-from layout.layout import store_id
+from plotting.app import app
+from plotting.utils.functions import fetch_columns_options
+from plotting.pages.table import table
+from plotting.layout.layout import store_id
 
 
 @app.callback(

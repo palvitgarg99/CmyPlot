@@ -3,10 +3,10 @@ from dash import html
 import dash_bootstrap_components as dbc
 
 # local imports
-from pages.home import home
-from pages.upload import upload
-from pages.table import table
-from pages.graph import graph
+from plotting.pages.home import home
+from plotting.pages.upload import upload
+from plotting.pages.table import table
+from plotting.pages.graph import graph
 
 # set contansts
 toggler = 'id-navbar-toggler'

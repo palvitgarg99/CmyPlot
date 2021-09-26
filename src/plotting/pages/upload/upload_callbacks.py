@@ -6,9 +6,9 @@ from dash.exceptions import PreventUpdate
 import pandas as pd
 
 # local imports
-from app import app
-from pages.upload import upload
-from layout.layout import store_id
+from plotting.app import app
+from plotting.pages.upload import upload
+from plotting.layout.layout import store_id
 
 
 @app.callback(
