@@ -5,11 +5,11 @@ def test_create_attribute_dropdown():
     attributes = ['item1', 'item2']
     expected = len(attributes)*2 + 1
     output = go.create_attribute_dropdown(attributes, 'id')
-    assert output == expected
+    assert len(output) == expected
 
 
 def test_create_label_dropdown():
     labels = ['item1', 'item2']
     expected = len(labels)*2 + 1
     output = go.create_label_dropdown(labels, 'id')
-    assert output == expected
+    assert len(output) == expected
