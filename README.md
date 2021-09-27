@@ -2,9 +2,14 @@
 **Data Visualisation Web App** 
 
 
-
+![GitHub](https://img.shields.io/github/license/bradley-erickson/CmyPlot)
 [![DOI](https://zenodo.org/badge/402902282.svg)](https://zenodo.org/badge/latestdoi/402902282)
 ![example event parameter](https://github.com/bradley-erickson/project1/actions/workflows/python-app.yml/badge.svg?event=push)
+![Github](https://img.shields.io/badge/language-python-red.svg)
+![GitHub issues](https://img.shields.io/github/issues-raw/bradley-erickson/CmyPlot)
+![Github closes issues](https://img.shields.io/github/issues-closed-raw/bradley-erickson/CmyPlot)
+![Github pull requests](https://img.shields.io/github/issues-pr/bradley-erickson/CmyPlot)
+![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/bradley-erickson/CmyPlot)
 
 ## Why Data Visualization?
 
