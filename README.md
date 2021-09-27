@@ -10,6 +10,7 @@
 ![Github closes issues](https://img.shields.io/github/issues-closed-raw/bradley-erickson/CmyPlot)
 ![Github pull requests](https://img.shields.io/github/issues-pr/bradley-erickson/CmyPlot)
 ![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/bradley-erickson/CmyPlot)
+[![codecov](https://codecov.io/gh/bradley-erickson/CmyPlot/branch/main/graph/badge.svg?token=PYRZHGZC5R)](https://codecov.io/gh/bradley-erickson/CmyPlot)
 
 ## Why Data Visualization?
 
