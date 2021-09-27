@@ -8,7 +8,7 @@ import plotly.express as px
 # local imports
 from plotting.app import app
 from plotting.layout.layout import store_id
-from plotting import utils as func
+from plotting.utils import functions as func
 from plotting.pages.graph.components import graph_options as go
 from plotting.pages.graph import graph
 
