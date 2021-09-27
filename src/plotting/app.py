@@ -4,7 +4,7 @@ import dash_bootstrap_components as dbc
 from flask_caching import Cache
 
 # local imports
-from layout.layout import layout
+from plotting.layout.layout import layout
 
 # create app
 app = dash.Dash(

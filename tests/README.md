@@ -7,5 +7,6 @@ This file contains information about running tests.
 To run tests locally on your machine, run
 
 ```bash
-python -m pytest
+pip install -e .
+pytest
 ```
