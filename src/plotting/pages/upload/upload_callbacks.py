@@ -6,9 +6,10 @@ from dash.exceptions import PreventUpdate
 import pandas as pd
 
 # local imports
-from app import app
-from pages.upload import upload
-from layout.layout import store_id
+from plotting.app import app
+from plotting.pages.upload import upload
+from plotting.layout.layout import store_id
+from plotting.utils import functions as func
 
 
 @app.callback(
@@ -76,6 +77,6 @@ def set_button_status(data):
             Determine if the buttons should be disabled or not
     """
 
-    if data['df']:
+    if func.validate_store_data(data):
         return [False, False]
     return [True, True]
