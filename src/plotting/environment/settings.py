@@ -1,12 +1,12 @@
 # package imports
 import os
-from os.path import join, dirname, abspath
+from os.path import join
 from dotenv import load_dotenv
 
 # load in dotenv file
 dotenv_path = join(
     os.getcwd(),
-    'src', 'environment',
+    'src', 'plotting', 'environment',
     '.env.development'
 )
 load_dotenv(dotenv_path=dotenv_path, override=True)

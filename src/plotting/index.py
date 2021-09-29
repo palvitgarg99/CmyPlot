@@ -1,5 +1,5 @@
 # package imports
-from app import app
+from plotting.app import app
 
 # local imports
 from environment.settings import APP_HOST, APP_PORT, APP_DEBUG, DEV_TOOLS_PROPS_CHECK

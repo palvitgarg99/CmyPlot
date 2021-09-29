@@ -2,9 +2,15 @@
 **Data Visualisation Web App** 
 
 
-
+![GitHub](https://img.shields.io/github/license/bradley-erickson/CmyPlot)
 [![DOI](https://zenodo.org/badge/402902282.svg)](https://zenodo.org/badge/latestdoi/402902282)
 ![example event parameter](https://github.com/bradley-erickson/project1/actions/workflows/python-app.yml/badge.svg?event=push)
+![Github](https://img.shields.io/badge/language-python-red.svg)
+![GitHub issues](https://img.shields.io/github/issues-raw/bradley-erickson/CmyPlot)
+![Github closes issues](https://img.shields.io/github/issues-closed-raw/bradley-erickson/CmyPlot)
+![Github pull requests](https://img.shields.io/github/issues-pr/bradley-erickson/CmyPlot)
+![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/bradley-erickson/CmyPlot)
+[![codecov](https://codecov.io/gh/bradley-erickson/CmyPlot/branch/main/graph/badge.svg?token=PYRZHGZC5R)](https://codecov.io/gh/bradley-erickson/CmyPlot)
 
 ## Why Data Visualization?
 
@@ -12,7 +18,7 @@ With enormous data in hand you would always want to visualize it for good unders
 
 As the famous saying goes - `"The greatest value of visualization is when it forces us to notice what we never expected to see"` - John W. Tukey
 
-`CmyPlot` is a web app that provides interface for uploading a csv data file and convert it into Tables and intresting graphs with one click
+`CmyPlot` is a web app that provides interface for uploading a csv data file and convert it into Tables and interesting graphs with one click
 
 - ## Built with
 
@@ -78,7 +84,7 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
     <td valign="left">
      <p style="color: #FF7A59"> 6.Graph representation of the data
       </p>
-     <a href="./docs/images/table_filtered.png">
+     <a href="./docs/images/graph_filled.png">
         <img src="./docs/images/graph_filled.png"> 
       </a> 
     </td> 
@@ -111,7 +117,7 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
 
         `source project1_env/bin/activate`
     
-     - Build the virtual environment:(must be present in [project directory](./))
+     - Build the virtual environment:(must be present in project directory)
 
         `pip install -r requirements.txt`
 
