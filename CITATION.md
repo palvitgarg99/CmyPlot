@@ -22,7 +22,6 @@ For the most up to date citation, click the following badge:
   doi          = {10.5281/zenodo.5521548},
   url          = {https://doi.org/10.5281/zenodo.5521548}
 }
-}
 ```
 # CSL
 ```text
@@ -138,16 +137,16 @@ For the most up to date citation, click the following badge:
   ], 
   "doi": "10.5281/zenodo.5521548", 
   "stats": {
-    "version_unique_downloads": 0.0, 
-    "unique_views": 0.0, 
-    "views": 0.0, 
-    "version_views": 0.0, 
-    "unique_downloads": 0.0, 
-    "version_unique_views": 0.0, 
-    "volume": 0.0, 
-    "version_downloads": 0.0, 
-    "downloads": 0.0, 
-    "version_volume": 0.0
+    "version_unique_downloads": 2.0, 
+    "unique_views": 12.0, 
+    "views": 23.0, 
+    "version_views": 23.0, 
+    "unique_downloads": 2.0, 
+    "version_unique_views": 12.0, 
+    "volume": 122958.0, 
+    "version_downloads": 2.0, 
+    "downloads": 2.0, 
+    "version_volume": 122958.0
   }, 
   "links": {
     "doi": "https://doi.org/10.5281/zenodo.5521548", 
@@ -161,9 +160,9 @@ For the most up to date citation, click the following badge:
   }, 
   "conceptdoi": "10.5281/zenodo.5521547", 
   "created": "2021-09-22T14:33:13.803341+00:00", 
-  "updated": "2021-09-22T14:33:14.994039+00:00", 
+  "updated": "2021-09-23T13:48:39.141312+00:00", 
   "conceptrecid": "5521547", 
-  "revision": 2, 
+  "revision": 3, 
   "id": 5521548, 
   "metadata": {
     "access_right_category": "success", 
@@ -229,7 +228,7 @@ For the most up to date citation, click the following badge:
 <?xml version='1.0' encoding='UTF-8'?>
 <record xmlns="http://www.loc.gov/MARC21/slim">
   <leader>00000nmm##2200000uu#4500</leader>
-  <controlfield tag="005">20210922143314.0</controlfield>
+  <controlfield tag="005">20210923134839.0</controlfield>
   <controlfield tag="001">5521548</controlfield>
   <datafield tag="700" ind1=" " ind2=" ">
     <subfield code="u">North Carolina State University</subfield>
@@ -250,6 +249,7 @@ For the most up to date citation, click the following badge:
     <subfield code="c">2021-09-22</subfield>
   </datafield>
   <datafield tag="909" ind1="C" ind2="O">
+    <subfield code="p">software</subfield>
     <subfield code="o">oai:zenodo.org:5521548</subfield>
   </datafield>
   <datafield tag="100" ind1=" " ind2=" ">
