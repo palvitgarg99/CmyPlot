@@ -3,7 +3,7 @@
 
 
 | Notes|Self-assement|evidence|
-|-----|------|---------|
+|------|------|---------|
 |workload is spread over the whole team (one team member is often Xtimes more productive than the others... 
 but nevertheless, here is a track record that everyone is contributing a lot)|2|evidence  in GH|
 | Number of commits|2|https://github.com/bradley-erickson/CmyPlot/graphs/commit-activity|
