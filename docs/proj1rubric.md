@@ -80,25 +80,25 @@
 | Question 12.3: Do you use continuous integration, automatically running tests whenever changes are made to your source code? * | 2 | [Yes through GitHub actions](https://github.com/sharathKV/CmyPlot/tree/main/.github/workflows) |
 | Question 12.4: Are your test results publicly visible? * | 2 | Yes, test results available at every PR through codecov |
 | Question 12.5: Are all manually-run tests documented? * | 0 | No |
-| Question 13.1: Does your project have resources (e.g. blog, Twitter, RSS feed, Facebook page, wiki, mailing list) that are regularly updated with information about your software? * |  |  |
-| Question 13.2: Does your website state how many projects and users are associated with your project? * |  |  |
-| Question 13.3: Do you provide success stories on your website? * |  |  |
-| Question 13.4: Do you list your important partners and collaborators on your website? * |  |  |
-| Question 13.5: Do you list your project's publications on your website or link to a resource where these are available? * |  |  |
-| Question 13.6: Do you list third-party publications that refer to your software on your website or link to a resource where these are available? * |  |  |
-| Question 13.7: Can users subscribe to notifications to changes to your source code repository? * |  |  |
-| Question 13.8: If your software is developed as an open source project (and, not just a project developing open source software), do you have a governance model? * |  |  |
-| Question 14.1: Do you accept contributions (e.g. bug fixes, enhancements, documentation updates, tutorials) from people who are not part of your project? * |  |  |
-| Question 14.2: Do you have a contributions policy? * |  |  |
-| Question 14.3: Is your contributions' policy publicly available? * |  |  |
-| Question 14.4: Do contributors keep the copyright/IP of their contributions? * |  |  |
-| Question 15.1: Does your website and documentation clearly state the copyright owners of your software and documentation? * |  |  |
-| Question 15.2: Does each of your source code files include a copyright statement? * |  |  |
-| Question 15.3: Does your website and documentation clearly state the licence of your software? * |  |  |
-| Question 15.4: Is your software released under an open source licence? * |  |  |
-| Question 15.5: Is your software released under an OSI-approved open-source licence? * |  |  |
-| Question 15.6: Does each of your source code files include a licence header? * |  |  |
-| Question 15.7: Do you have a recommended citation for your software? * |  |  |
-| Question 16.1: Does your website or documentation include a project roadmap (a list of project and development milestones for the next 3, 6 and 12 months)? * |  |  |
-| Question 16.2: Does your website or documentation describe how your project is funded, and the period over which funding is guaranteed? * |  |  |
-| Question 16.3: Do you make timely announcements of the deprecation of components, APIs, etc.? * |  |  |
+| Question 13.1: Does your project have resources (e.g. blog, Twitter, RSS feed, Facebook page, wiki, mailing list) that are regularly updated with information about your software? * | 0 |  |
+| Question 13.2: Does your website state how many projects and users are associated with your project? * | 2 | Github - yes, site - no, https://github.com/bradley-erickson/CmyPlot/graphs/contributors |
+| Question 13.3: Do you provide success stories on your website? * | 0 | No |
+| Question 13.4: Do you list your important partners and collaborators on your website? * | 3 | Yes, Citation and GitHub links are provided. |
+| Question 13.5: Do you list your project's publications on your website or link to a resource where these are available? * | 3 | Link to Citation infomation on site |
+| Question 13.6: Do you list third-party publications that refer to your software on your website or link to a resource where these are available? * | 3 | None exist |
+| Question 13.7: Can users subscribe to notifications to changes to your source code repository? * | 1 | Not currently , but have added to the roadmap for this suggestion. |
+| Question 13.8: If your software is developed as an open source project (and, not just a project developing open source software), do you have a governance model? * | 0 | No |
+| Question 14.1: Do you accept contributions (e.g. bug fixes, enhancements, documentation updates, tutorials) from people who are not part of your project? * | 3 | Yes, see https://github.com/bradley-erickson/CmyPlot/issues and https://github.com/bradley-erickson/CmyPlot/blob/main/CONTRIBUTING.md  |
+| Question 14.2: Do you have a contributions policy? * | 3 | Yes, see https://github.com/bradley-erickson/CmyPlot/blob/main/CONTRIBUTING.md  |
+| Question 14.3: Is your contributions' policy publicly available? * | 3 | Yes, see https://github.com/bradley-erickson/CmyPlot/blob/main/CONTRIBUTING.md |
+| Question 14.4: Do contributors keep the copyright/IP of their contributions? * | 3 | See https://github.com/bradley-erickson/CmyPlot/blob/main/LICENSE |
+| Question 15.1: Does your website and documentation clearly state the copyright owners of your software and documentation? * | 3 | Yes, https://github.com/bradley-erickson/CmyPlot/blob/main/LICENSE |
+| Question 15.2: Does each of your source code files include a copyright statement? * | 3 | Yes, Example : https://github.com/bradley-erickson/CmyPlot/blob/main/src/plotting/assets/bootstrap.css |
+| Question 15.3: Does your website and documentation clearly state the licence of your software? * | 3 | Yes, https://github.com/bradley-erickson/CmyPlot/blob/main/LICENSE |
+| Question 15.4: Is your software released under an open source licence? * | 3 | https://github.com/bradley-erickson/CmyPlot/blob/main/LICENSE  |
+| Question 15.5: Is your software released under an OSI-approved open-source licence? * | 3 | Yes, https://github.com/bradley-erickson/CmyPlot/blob/main/LICENSE   |
+| Question 15.6: Does each of your source code files include a licence header? * | 0 | No |
+| Question 15.7: Do you have a recommended citation for your software? * | 3 | Yes , https://github.com/bradley-erickson/CmyPlot/blob/rubric/CITATION.md |
+| Question 16.1: Does your website or documentation include a project roadmap (a list of project and development milestones for the next 3, 6 and 12 months)? * | 3 | https://github.com/bradley-erickson/CmyPlot/tree/rubric#roadmap , https://github.com/bradley-erickson/CmyPlot/issues|
+| Question 16.2: Does your website or documentation describe how your project is funded, and the period over which funding is guaranteed? * | 0 | No current funding |
+| Question 16.3: Do you make timely announcements of the deprecation of components, APIs, etc.? * | 0 | Not applicable |
