@@ -62,24 +62,24 @@
 | Question 8.1: Is your software cross-platform compatible? * |  |  |
 | Question 9.1: Does your software adhere to appropriate accessibility conventions or standards? * |  |  |
 | Question 9.2: Does your documentation adhere to appropriate accessibility conventions or standards? * |  |  |
-| Question 10.1: Is your source code stored in a repository under revision control? * |  |  |
-| Question 10.2: Is each source code release a snapshot of the repository? * |  |  |
-| Question 10.3: Are releases tagged in the repository? * |  |  |
-| Question 10.4: Is there a branch of the repository that is always stable? (i.e. tests always pass, code always builds successfully) * |  |  |
-| Question 10.5: Do you back-up your repository? * |  |  |
-| Question 11.1: Do you provide publicly-available instructions for building your software from the source code? * |  |  |
-| Question 11.2: Can you build, or package, your software using an automated tool? * |  |  |
-| Question 11.3: Do you provide publicly-available instructions for deploying your software? * |  |  |
-| Question 11.4: Does your documentation list all third-party dependencies? * |  |  |
-| Question 11.5: Does your documentation list the version number for all third-party dependencies? * |  |  |
-| Question 11.6: Does your software list the web address, and licences for all third-party dependencies and say whether the dependencies are mandatory or optional? * |  |  |
-| Question 11.7: Can you download dependencies using a dependency management tool or package manager? * |  |  |
-| Question 11.8: Do you have tests that can be run after your software has been built or deployed to show whether the build or deployment has been successful? * |  |  |
-| Question 12.1: Do you have an automated test suite for your software? * |  |  |
-| Question 12.2: Do you have a framework to periodically (e.g. nightly) run your tests on the latest version of the source code? * |  |  |
-| Question 12.3: Do you use continuous integration, automatically running tests whenever changes are made to your source code? * |  |  |
-| Question 12.4: Are your test results publicly visible? * |  |  |
-| Question 12.5: Are all manually-run tests documented? * |  |  |
+| Question 10.1: Is your source code stored in a repository under revision control? * | 2 | https://github.com/bradley-erickson/CmyPlot |
+| Question 10.2: Is each source code release a snapshot of the repository? * | 2 | https://github.com/bradley-erickson/CmyPlot/releases/tag/v0.2-alpha |
+| Question 10.3: Are releases tagged in the repository? * | 2 | https://github.com/bradley-erickson/CmyPlot/releases |
+| Question 10.4: Is there a branch of the repository that is always stable? (i.e. tests always pass, code always builds successfully) * | 2 | https://github.com/bradley-erickson/CmyPlot/tree/main |
+| Question 10.5: Do you back-up your repository? * | 2 | Every repository is a backup of its remote |
+| Question 11.1: Do you provide publicly-available instructions for building your software from the source code? * | 0 | No |
+| Question 11.2: Can you build, or package, your software using an automated tool? * | 2 | We have included setup.cfg file for easier package installation and also included Dockerfile to build an image and run the container |
+| Question 11.3: Do you provide publicly-available instructions for deploying your software? * | 0 | No |
+| Question 11.4: Does your documentation list all third-party dependencies? * | 0 | No |
+| Question 11.5: Does your documentation list the version number for all third-party dependencies? * | 0 | No |
+| Question 11.6: Does your software list the web address, and licences for all third-party dependencies and say whether the dependencies are mandatory or optional? * | 0 | No |
+| Question 11.7: Can you download dependencies using a dependency management tool or package manager? * | 0 | yes we have used pip for package install |
+| Question 11.8: Do you have tests that can be run after your software has been built or deployed to show whether the build or deployment has been successful? * | 1 | We don't have tests checking the functionality of all methods |
+| Question 12.1: Do you have an automated test suite for your software? * | 2 | [Pytest in GitHub actions](https://github.com/sharathKV/CmyPlot/blob/main/.github/workflows/python-app.yml) |
+| Question 12.2: Do you have a framework to periodically (e.g. nightly) run your tests on the latest version of the source code? * | 1 | We dont have all the tests |
+| Question 12.3: Do you use continuous integration, automatically running tests whenever changes are made to your source code? * | 2 | [Yes through GitHub actions](https://github.com/sharathKV/CmyPlot/tree/main/.github/workflows) |
+| Question 12.4: Are your test results publicly visible? * | 2 | Yes, test results available at every PR through codecov |
+| Question 12.5: Are all manually-run tests documented? * | 0 | No |
 | Question 13.1: Does your project have resources (e.g. blog, Twitter, RSS feed, Facebook page, wiki, mailing list) that are regularly updated with information about your software? * |  |  |
 | Question 13.2: Does your website state how many projects and users are associated with your project? * |  |  |
 | Question 13.3: Do you provide success stories on your website? * |  |  |
