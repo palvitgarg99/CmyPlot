@@ -4,5 +4,8 @@
     "python.linting.enabled": true,
     "python.linting.ignorePatterns": [
         "src/environment/*"
+    ],
+    "python.analysis.extraPaths": [
+        "./src"
     ]
 }
