@@ -3,7 +3,7 @@
 
 
 ![GitHub](https://img.shields.io/github/license/bradley-erickson/CmyPlot)
-[![DOI](https://zenodo.org/badge/402902282.svg)](https://zenodo.org/badge/latestdoi/402902282)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5540006.svg)](https://doi.org/10.5281/zenodo.5540006)
 ![example event parameter](https://github.com/bradley-erickson/project1/actions/workflows/python-app.yml/badge.svg?event=push)
 ![Github](https://img.shields.io/badge/language-python-red.svg)
 ![GitHub issues](https://img.shields.io/github/issues-raw/bradley-erickson/CmyPlot)
