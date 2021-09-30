@@ -1,0 +1,12 @@
+plotting package
+================
+
+.. toctree::
+   :maxdepth: 4
+
+   plotting.environment
+   plotting.layout
+   plotting.pages
+   plotting.utils
+
+

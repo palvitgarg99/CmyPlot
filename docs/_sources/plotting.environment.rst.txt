@@ -1,0 +1,13 @@
+plotting.environment package
+============================
+
+plotting.environment.settings module
+------------------------------------
+
+.. automodule:: plotting.environment.settings
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. literalinclude:: ..\src\plotting\environment\settings.py
+    :language: python
