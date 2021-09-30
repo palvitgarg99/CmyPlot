@@ -128,11 +128,30 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
      - Clone [this (CmyPlot) github repo](https://github.com/bradley-erickson/CmyPlot).
 
      - Navigate to [project directory](./).
+
+     - Create a virtual environment:
+
+        `python -m venv project1_env`
+    
+     - Activate the virtual environment: 
+
+        `source project1_env/bin/activate`
+    
+     - Build the virtual environment:
+
+        `pip install -r requirements.txt`
+
+     - Install CmyPlot as package, this step is required due to the testing framework:
+
+        `pip install -e .`
   
-     - Run `python src/index.py`
+     - Run:
+     
+        `python src/plotting/index.py`
 
      - Site will be hosted at:
        `http://127.0.0.1:8085/`
+
      ## Roadmap
        - [List of Roadmap and their corresponding open issues](https://github.com/bradley-erickson/CmyPlot/issues/48)
 ## Team Members
