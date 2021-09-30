@@ -53,7 +53,7 @@
 | Question 5.2: Does your website and documentation describe what support, if any, you provide to users and developers? * | 1 | [Contribution](https://github.com/bradley-erickson/CmyPlot/blob/main/CONTRIBUTING.md) file for developers who would like to make a contribution is provided in GH |
 | Question 5.3: Does your project have an e-mail address or forum that is solely for supporting users? * | 0 |  |
 | Question 5.4: Are e-mails to your support e-mail address received by more than one person? * | 0 |  |
-| Question 5.5: Does your project have a ticketing system to manage bug reports and feature requests? * | 3 | Available in GH [closed ti](https://github.com/bradley-erickson/CmyPlot/pulls?q=is%3Apr+is%3Aclosed) |
+| Question 5.5: Does your project have a ticketing system to manage bug reports and feature requests? * | 3 | Available in GH [closed tickets](https://github.com/bradley-erickson/CmyPlot/pulls?q=is%3Apr+is%3Aclosed) |
 | Question 5.6: Is your project's ticketing system publicly visible to your users, so they can view bug reports and feature requests? * | 3 | Available in GH in [issues](https://github.com/bradley-erickson/CmyPlot/issues/10) |
 | Question 6.1: Is your software’s architecture and design modular?| 3 | We used MVC architecture with a standard front end folder structure. Each page will contain up to 3 files, the model (data), the view (layout) and the controller (callbacks) |
 | Question 6.2: Does your software use an accepted coding standard or convention?| 3 | We used Numpydoc as the docstring format and lint with Flake8 which has some conventions inside, like remove unused imports |
