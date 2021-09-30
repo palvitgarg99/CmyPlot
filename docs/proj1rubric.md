@@ -55,8 +55,8 @@
 | Question 5.4: Are e-mails to your support e-mail address received by more than one person? * | 0 |  |
 | Question 5.5: Does your project have a ticketing system to manage bug reports and feature requests? * | 3 | Available in GH [closed ti](https://github.com/bradley-erickson/CmyPlot/pulls?q=is%3Apr+is%3Aclosed) |
 | Question 5.6: Is your project's ticketing system publicly visible to your users, so they can view bug reports and feature requests? * | 3 | Available in GH in [issues](https://github.com/bradley-erickson/CmyPlot/issues/10) |
-| Question 6.1: Is your software’s architecture and design modular? * |  |  |
-| Question 6.2: Does your software use an accepted coding standard or convention? * |  |  |
+| Question 6.1: Is your software’s architecture and design modular?| 3 | We used MVC architecture with a standard front end folder structure. Each page will contain up to 3 files, the model (data), the view (layout) and the controller (callbacks) |
+| Question 6.2: Does your software use an accepted coding standard or convention?| 3 | We used Numpydoc as the docstring format and lint with Flake8 which has some conventions inside, like remove unused imports |
 | Question 7.1: Does your software allow data to be imported and exported using open data formats? * |3  |Yes, csv data format is allowed  |
 | Question 7.2: Does your software allow communications using open communications protocols? * | 3 | Yes, CmyPlot will run without any proprietary interface https://github.com/bradley-erickson/CmyPlot/blob/main/README.md#run-instructions |
 | Question 8.1: Is your software cross-platform compatible? * | 3 | Yes, https://github.com/bradley-erickson/CmyPlot/blob/main/README.md |
