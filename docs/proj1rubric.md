@@ -4,43 +4,43 @@
 
 | Notes|Self-assement|evidence|
 |------|------|---------|
-|workload is spread over the whole team (one team member is often Xtimes more productive than the others... but nevertheless, here is a track record that everyone is contributing a lot)|2|evidence  in GH|
-| Number of commits|2|https://github.com/bradley-erickson/CmyPlot/graphs/commit-activity|
-| Number of commits: by different people|2|https://github.com/bradley-erickson/CmyPlot/graphs/contributors|
-| Issues reports: there are **many**|2|https://github.com/bradley-erickson/CmyPlot/issues|
-|  issues are being  closed|2|https://github.com/bradley-erickson/CmyPlot/issues?q=is%3Aissue+is%3Aclosed|
-| DOI badge: exists |2|https://github.com/bradley-erickson/CmyPlot/blob/main/README.md|
-|Docs: doco generated , format not ugly|2 |in GH|
-|Docs: what: point descriptions of each class/function (in isolation) |2||
-|Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z|2|doc page entries|
-|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing|2||
-|Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|2||
-| Use of version control tools|2|Uses GH release tags|
-|Use of  style checkers |2|https://github.com/bradley-erickson/CmyPlot/blob/main/.github/workflows/python-app.yml|
-| Use of code  formatters. |2|https://github.com/bradley-erickson/CmyPlot/blob/main/.github/workflows/python-app.yml|
-| Use of syntax checkers. |2|https://github.com/bradley-erickson/CmyPlot/blob/main/.github/workflows/python-app.ymlg  |
-| Use of code coverage |2|https://github.com/bradley-erickson/CmyPlot/blob/main/.github/workflows/python-app.yml|
-| other automated analysis tools|2|https://github.com/bradley-erickson/CmyPlot/blob/main/.github/workflows/python-app.yml|
-| test cases exist | 2 | https://github.com/bradley-erickson/CmyPlot/tree/main/tests |
+|workload is spread over the whole team (one team member is often Xtimes more productive than the others... but nevertheless, here is a track record that everyone is contributing a lot) | 2 | evidence  in GH |
+| Number of commits | 2 | https://github.com/bradley-erickson/CmyPlot/graphs/commit-activity |
+| Number of commits: by different people | 2 | https://github.com/bradley-erickson/CmyPlot/graphs/contributors |
+| Issues reports: there are **many** | 3 | https://github.com/bradley-erickson/CmyPlot/issues |
+| issues are being closed | 3 | https://github.com/bradley-erickson/CmyPlot/issues?q=is%3Aissue+is%3Aclosed |
+| DOI badge: exists | 3 | https://github.com/bradley-erickson/CmyPlot/blob/main/README.md |
+| Docs: doco generated , format not ugly | 2 | in GH |
+| Docs: what: point descriptions of each class/function (in isolation) | 2 |  |
+| Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z | 2 | doc page entries |
+| Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing | 3 | See initial text in https://github.com/bradley-erickson/CmyPlot/blob/main/README.md |
+| Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code. | 3 | Video that explains use cases in https://github.com/bradley-erickson/CmyPlot/blob/main/README.md |
+| Use of version control tools | 3 | Uses GH release tags |
+| Use of  style checkers | 2 | https://github.com/bradley-erickson/CmyPlot/blob/main/.github/workflows/python-app.yml|
+| Use of code  formatters. | 2 | https://github.com/bradley-erickson/CmyPlot/blob/main/.github/workflows/python-app.yml|
+| Use of syntax checkers. | 2 | https://github.com/bradley-erickson/CmyPlot/blob/main/.github/workflows/python-app.ymlg  |
+| Use of code coverage | 3 | https://github.com/bradley-erickson/CmyPlot/blob/main/.github/workflows/python-app.yml|
+| other automated analysis tools | 3 | test suite automated https://github.com/bradley-erickson/CmyPlot/blob/main/.github/workflows/python-app.yml|
+| test cases exist | 2 | Tests exists and primarily focus on base functionality, no UI tests implemented yet (on roadmap) https://github.com/bradley-erickson/CmyPlot/tree/main/tests |
 | test cases are routinely executed|2| on push or pull requests, tests are run, see https://github.com/bradley-erickson/CmyPlot/blob/main/.github/workflows/python-app.yml|
- | the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up|2|See https://github.com/bradley-erickson/CmyPlot/blob/main/CONTRIBUTING.md and https://github.com/bradley-erickson/CmyPlot/tree/main/contributing|
-| issues are discussed before they are closed | 2 | every issue is dicussed by all, then assigned to one appropriate person for closure |
-| Chat channel: exists|2|https://discord.gg/WcMn7pvKqR|
-| test cases:.a large proportion of the issues related to handling failing cases.|2|if a test case fails, open an issue and fix it|
-| evidence that the whole team is using the same tools: everyone can get to all tools and files|2||
-| evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)|2||
-| evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)|2||
-| evidence that the members of the team are working across multiple places in the code base|2||
-|short release cycles | 2|(hard to see in short projects) project members are committing often enough so that everyone can get your work|
-| Question 1.1: Does your website and documentation provide a clear, high-level overview of your software? |  |  |
-| Question 1.2: Does your website and documentation clearly describe the type of user who should use your software? |  |  |
-| Question 1.3: Do you publish case studies to show how your software has been used by yourself and others? |  |  |
-| Question 2.1: Is the name of your project/software unique? * |  |  |
-| Question 2.2: Is your project/software name free from trademark violations? * |  |  |
-| Question 3.1: Is your software available as a package that can be deployed without building it?  |  |  |
-| Question 3.2: Is your software available for free? |  |  |
-| Question 3.3: Is your source code publicly available to download, either as a downloadable bundle or via access to a source code repository? |  |  |
-| Question 3.4: Is your software hosted in an established, third-party repository likeGitHub (https://github.com), BitBucket (https://bitbucket.org),LaunchPad (https://launchpad.net) orSourceForge (https://sourceforge.net)? |  |  |
+| the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up | 2 | See https://github.com/bradley-erickson/CmyPlot/blob/main/CONTRIBUTING.md and https://github.com/bradley-erickson/CmyPlot/tree/main/contributing|
+| issues are discussed before they are closed | 2 | every issue is dicussed by all, then assigned to one appropriate person for closure. The issue is tied to a PR and closed when merged. |
+| Chat channel: exists | 2 | https://discord.gg/WcMn7pvKqR |
+| test cases:.a large proportion of the issues related to handling failing cases. | 2 | Each test accounts for failing scenarios |
+| evidence that the whole team is using the same tools: everyone can get to all tools and files | 3 | https://github.com/bradley-erickson/CmyPlot/blob/main/requirements.txt |
+| evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people) | 3 | Simple environment file for develop is used by all https://github.com/bradley-erickson/CmyPlot/tree/main/src/plotting/environment |
+| evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer) | 3 | Follow README instructions and everyone should be able to run |
+| evidence that the members of the team are working across multiple places in the code base | 1 | one person primarily focused on the codebase |
+| short release cycles | 3 | 2 alpha releases so far, the first focusing on basic functionality, the second on a working product |
+| Question 1.1: Does your website and documentation provide a clear, high-level overview of your software? | 3 | Readme and site home page provide brief description |
+| Question 1.2: Does your website and documentation clearly describe the type of user who should use your software? | 2 | README does, site home page does not |
+| Question 1.3: Do you publish case studies to show how your software has been used by yourself and others? | 0 |  |
+| Question 2.1: Is the name of your project/software unique? * | 3 | CmyPlot is interesting and original |
+| Question 2.2: Is your project/software name free from trademark violations? * | 3 | There is not another CmyPlot |
+| Question 3.1: Is your software available as a package that can be deployed without building it?  | 2 | Docker ready, but not a package https://github.com/bradley-erickson/CmyPlot/blob/main/Dockerfile |
+| Question 3.2: Is your software available for free? | 3 | Available on Github for free and eventually free when hosted (roadmap item) |
+| Question 3.3: Is your source code publicly available to download, either as a downloadable bundle or via access to a source code repository? | 3 | Source code available at https://github.com/bradley-erickson/CmyPlot |
+| Question 3.4: Is your software hosted in an established, third-party repository like GitHub (https://github.com), BitBucket (https://bitbucket.org), LaunchPad (https://launchpad.net) or SourceForge (https://sourceforge.net)? | 3 | Its on Github |
 | Question 4.1: Is your documentation clearly available on your website or within your software? |  |  |
 | Question 4.2: Does your documentation include a "quick start" guide, that provides a short overview of how to use your software with some basic examples of use? |  |  |
 | Question 4.3: If you provide more extensive documentation, does this provide clear, step-by-step instructions on how to deploy and use your software? |  |  |
