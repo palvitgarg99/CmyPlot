@@ -41,20 +41,20 @@
 | Question 3.2: Is your software available for free? | 3 | Available on Github for free and eventually free when hosted (roadmap item) |
 | Question 3.3: Is your source code publicly available to download, either as a downloadable bundle or via access to a source code repository? | 3 | Source code available at https://github.com/bradley-erickson/CmyPlot |
 | Question 3.4: Is your software hosted in an established, third-party repository like GitHub (https://github.com), BitBucket (https://bitbucket.org), LaunchPad (https://launchpad.net) or SourceForge (https://sourceforge.net)? | 3 | Its on Github |
-| Question 4.1: Is your documentation clearly available on your website or within your software? |  |  |
-| Question 4.2: Does your documentation include a "quick start" guide, that provides a short overview of how to use your software with some basic examples of use? |  |  |
-| Question 4.3: If you provide more extensive documentation, does this provide clear, step-by-step instructions on how to deploy and use your software? |  |  |
-| Question 4.4: Do you provide a comprehensive guide to all your software’s commands, functions and options? * |  |  |
-| Question 4.5: Do you provide troubleshooting information that describes the symptoms and step-by-step solutions for problems and error messages? * |  |  |
-| Question 4.6: If your software can be used as a library, package or service by other software, do you provide comprehensive API documentation? * |  |  |
-| Question 4.7: Do you store your documentation under revision control with your source code? * |  |  |
-| Question 4.8: Do you publish your release history e.g. release data, version numbers, key features of each release etc. on your web site or in your documentation? * |  |  |
-| Question 5.1: Does your software describe how a user can get help with using your software? * |  |  |
-| Question 5.2: Does your website and documentation describe what support, if any, you provide to users and developers? * |  |  |
-| Question 5.3: Does your project have an e-mail address or forum that is solely for supporting users? * |  |  |
-| Question 5.4: Are e-mails to your support e-mail address received by more than one person? * |  |  |
-| Question 5.5: Does your project have a ticketing system to manage bug reports and feature requests? * |  |  |
-| Question 5.6: Is your project's ticketing system publicly visible to your users, so they can view bug reports and feature requests? * |  |  |
+| Question 4.1: Is your documentation clearly available on your website or within your software? | 3 | Available in GH in [ReadMe](https://github.com/bradley-erickson/CmyPlot/blob/rubric/README.md) file and [docs](https://github.com/bradley-erickson/CmyPlot/tree/rubric/docs) folder |
+| Question 4.2: Does your documentation include a "quick start" guide, that provides a short overview of how to use your software with some basic examples of use? | 3 | Available in GH [ReadMe](https://github.com/bradley-erickson/CmyPlot/blob/rubric/README.md) file |
+| Question 4.3: If you provide more extensive documentation, does this provide clear, step-by-step instructions on how to deploy and use your software? | 3 | Available in GH [ReadMe](https://github.com/bradley-erickson/CmyPlot/blob/rubric/README.md) file |
+| Question 4.4: Do you provide a comprehensive guide to all your software’s commands, functions and options? | 0 |  |
+| Question 4.5: Do you provide troubleshooting information that describes the symptoms and step-by-step solutions for problems and error messages? * | 0 |  |
+| Question 4.6: If your software can be used as a library, package or service by other software, do you provide comprehensive API documentation? * | 0 |  |
+| Question 4.7: Do you store your documentation under revision control with your source code? * | 3 | Available in GH |
+| Question 4.8: Do you publish your release history e.g. release data, version numbers, key features of each release etc. on your web site or in your documentation? * | 3 | Available in GH under [releases](https://github.com/bradley-erickson/CmyPlot/releases)  |
+| Question 5.1: Does your software describe how a user can get help with using your software? * | 0 |  |
+| Question 5.2: Does your website and documentation describe what support, if any, you provide to users and developers? * | 1 | [Contribution](https://github.com/bradley-erickson/CmyPlot/blob/main/CONTRIBUTING.md) file for developers who would like to make a contribution is provided in GH |
+| Question 5.3: Does your project have an e-mail address or forum that is solely for supporting users? * | 0 |  |
+| Question 5.4: Are e-mails to your support e-mail address received by more than one person? * | 0 |  |
+| Question 5.5: Does your project have a ticketing system to manage bug reports and feature requests? * | 3 | Available in GH [closed ti](https://github.com/bradley-erickson/CmyPlot/pulls?q=is%3Apr+is%3Aclosed) |
+| Question 5.6: Is your project's ticketing system publicly visible to your users, so they can view bug reports and feature requests? * | 3 | Available in GH in [issues](https://github.com/bradley-erickson/CmyPlot/issues/10) |
 | Question 6.1: Is your software’s architecture and design modular? * |  |  |
 | Question 6.2: Does your software use an accepted coding standard or convention? * |  |  |
 | Question 7.1: Does your software allow data to be imported and exported using open data formats? * |3  |Yes, csv data format is allowed  |
