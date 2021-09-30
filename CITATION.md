@@ -6,7 +6,7 @@
 - [MARKCXML](https://github.com/bradley-erickson/project1/edit/main/CITATION.md#markcxml)
 
 For the most up to date citation, click the following badge:
-[![DOI](https://zenodo.org/badge/402902282.svg)](https://zenodo.org/badge/latestdoi/402902282)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5540006.svg)](https://doi.org/10.5281/zenodo.5540006)
 
 # BibTeX
 ```text
