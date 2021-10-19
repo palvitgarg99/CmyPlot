@@ -1,5 +1,5 @@
 # package imports
-from plotting.app import app
+from app import app
 import argparse
 
 # local imports

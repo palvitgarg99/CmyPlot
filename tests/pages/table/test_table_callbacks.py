@@ -1,6 +1,6 @@
 import pandas as pd
 
-from plotting.pages.table import table_callbacks as tc
+from pages.table import table_callbacks as tc
 
 df = pd.DataFrame({
     'x1': [0, 1, 2],
