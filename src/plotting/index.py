@@ -4,7 +4,7 @@ import argparse
 from waitress import serve
 
 # local imports
-from environment.settings import APP_PORT, APP_DEBUG, DEV_TOOLS_PROPS_CHECK
+# from environment.settings import APP_PORT, APP_DEBUG, DEV_TOOLS_PROPS_CHECK
 
 # initializes all callbacks
 import utils.routes
