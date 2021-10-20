@@ -26,9 +26,14 @@ if __name__ == '__main__':
         help='Host address where the website has to be deployed'
     )
     args = my_parser.parse_args()
+    from waitress import serve
+
+    serve(app.server, host="127.0.0.1", port=8080)
+    '''
     app.run_server(
         host=args.host,
         port=APP_PORT,
         debug=APP_DEBUG,
         dev_tools_props_check=DEV_TOOLS_PROPS_CHECK
     )
+    '''
