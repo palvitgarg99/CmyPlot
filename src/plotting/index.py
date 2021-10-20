@@ -7,10 +7,10 @@ from waitress import serve
 # from environment.settings import APP_PORT, APP_DEBUG, DEV_TOOLS_PROPS_CHECK
 
 # initializes all callbacks
-import utils.routes
-import pages.upload.upload_callbacks
-import pages.table.table_callbacks
-import pages.graph.graph_callbacks
+import src.plotting.utils.routes
+import src.plotting.pages.upload.upload_callbacks
+import src.plotting.pages.table.table_callbacks
+import src.plotting.pages.graph.graph_callbacks
 
 # initialize services
 server = app.server
