@@ -2,13 +2,13 @@
 from dash.dependencies import Input, Output, State
 
 # local imports
-from app import app
-from layout import navbar
-from pages.home import home
-from pages.bad_url import bad_url
-from pages.upload import upload
-from pages.table import table
-from pages.graph import graph
+from plotting.app import app
+from plotting.layout import navbar
+from plotting.pages.home import home
+from plotting.pages.bad_url import bad_url
+from plotting.pages.upload import upload
+from plotting.pages.table import table
+from plotting.pages.graph import graph
 
 
 @app.callback(

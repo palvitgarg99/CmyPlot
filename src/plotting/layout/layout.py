@@ -2,8 +2,8 @@
 from dash import html, dcc
 
 # local imports
-from layout.navbar import navbar
-from layout.footer import footer
+from plotting.layout.navbar import navbar
+from plotting.layout.footer import footer
 
 # constants
 store_id = 'id-data-store'
