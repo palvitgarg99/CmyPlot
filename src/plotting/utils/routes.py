@@ -9,6 +9,10 @@ from src.plotting.pages.bad_url import bad_url
 from src.plotting.pages.upload import upload
 from src.plotting.pages.table import table
 from src.plotting.pages.graph import graph
+from src.plotting.pages.linkShare import offlinepage
+
+
+server = app.server
 
 
 @app.callback(
@@ -53,6 +57,8 @@ def handle_routes(pathname):
         layout: dash.html.Div
             Content of page to return to the view
     """
+    pathlist = pathname.split('/')
+    pathname = '/' + pathlist[1]
 
     if pathname == '/' or pathname == home.path:
         return home.layout
@@ -62,5 +68,14 @@ def handle_routes(pathname):
         return table.layout
     elif pathname == graph.path:
         return graph.layout
+    elif pathname == '/share':
+        if len(pathlist) == 5:
+            from src.plotting.pages.linkShare import figure_generator
+            figure_generator.filename = pathlist[2] + ".pkl"
+            figure_generator.xaxis = pathlist[3]
+            figure_generator.yaxis = pathlist[4]
+            return offlinepage.offlinepagelayout()
+        else:
+            return bad_url.layout
     else:
         return bad_url.layout
