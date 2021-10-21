@@ -1,17 +1,21 @@
 # package imports
+import dash
 from dash.dependencies import ALL, Input, Output, State
 from dash.exceptions import PreventUpdate
 from dash import callback_context
 import pandas as pd
 import plotly.express as px
+import pickle
 
 # local imports
 from src.plotting.app import app
+
 from src.plotting.layout.layout import store_id
-from src.plotting.utils import functions as func
+from src.plotting.utils import functions as func, constants
 from src.plotting.pages.graph.components import graph_options as go
 from src.plotting.pages.graph import graph
 
+name_counter = 1
 
 @app.callback(
     Output(go.collapse, 'is_open'),
@@ -137,3 +141,29 @@ def create_figure(data, att_values, label_values, height):
     )
 
     return figure
+
+
+
+
+@app.callback(
+    Output('container-button-basic', 'children'),
+    Input(graph.buttons_id, 'n_clicks'),
+    Input(store_id, 'data')
+)
+def store_data_locally_to_share(data, data2):
+    global name_counter
+    ctx = dash.callback_context
+    if not ctx.triggered:
+        print("Initial one")
+        return "Sharing link will be available here"
+    print("storing file")
+    name_counter = name_counter + 1
+    a_file = open(str(name_counter) + ".pkl", "wb+")
+
+    pickle.dump(data2, a_file)
+    a_file.close()
+
+    a_file = open(str(name_counter) + ".pkl", "rb")
+    output = pickle.load(a_file)
+    print(output)
+    return "http://cmyplot.herokuapp.com/share/" + str(name_counter) + "/X0/X1"
