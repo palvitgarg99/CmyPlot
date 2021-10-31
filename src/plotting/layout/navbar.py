@@ -8,7 +8,8 @@ from src.plotting.pages.upload import upload
 from src.plotting.pages.table import table
 from src.plotting.pages.graph import graph
 
-# set contansts
+# set constants
+toggler = "id-navbar-toggler"
 collapse = "id-navbar-collapse"
 LOGO = "https://images.plot.ly/logo/new-branding/plotly-logomark.png"
 
@@ -27,7 +28,7 @@ navbar = dbc.Navbar(
                 href="/",
                 style={"textDecoration": "none"},
             ),
-            dbc.NavbarToggler(id="navbar-toggler2"),
+            dbc.NavbarToggler(id=toggler),
             dbc.Col(
                 dbc.Nav(
                     dbc.Container(dbc.NavItem(dbc.NavLink(home.title, href=home.path))),
