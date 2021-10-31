@@ -162,3 +162,5 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
 
 [Jainam Shah](https://github.com/j-08-shah)
 
+[Palvit Garg](https://github.com/palvitgarg99)
+
