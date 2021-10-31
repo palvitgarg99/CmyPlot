@@ -134,3 +134,5 @@ project1_env/
 cache-directory
 
 project1.egg-info
+
+.idea/
