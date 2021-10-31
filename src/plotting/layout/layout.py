@@ -11,7 +11,7 @@ store_id = 'id-data-store'
 
 layout = html.Div(
     [
-        dcc.Location(id='url', refresh=False),
+        dcc.Location(id="url", refresh=False),
         dcc.Store(id=store_id),
         html.Div([navbar]),
         html.Div(id='page-content'),
