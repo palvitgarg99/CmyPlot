@@ -55,11 +55,11 @@ def handle_routes(pathname):
             Content of page to return to the view
     """
     pathlist = pathname.split("/")
+    print(pathlist)
     if len(pathlist) >= 2:
         pathname = "/" + pathlist[1]
     else:
         pathname = pathlist[0]
-    print(pathname, pathlist)
 
     if pathname == "/" or pathname == home.path:
         return home.layout
@@ -70,7 +70,7 @@ def handle_routes(pathname):
     elif pathname == graph.path:
         return graph.layout
     elif pathname == "/share":
-        if len(pathlist) == 5:
+        if len(pathlist) >= 3:
             from src.plotting.pages.linkShare import figure_generator
 
             figure_generator.filename = pathlist[2] + ".pkl"

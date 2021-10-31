@@ -36,5 +36,6 @@ if __name__ == "__main__":
             debug=True,
             dev_tools_props_check=DEV_TOOLS_PROPS_CHECK,
         )
+
     else:
         serve(server, host="127.0.0.1", port=8080)

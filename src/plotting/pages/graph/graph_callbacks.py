@@ -1,4 +1,5 @@
 # package imports
+
 import dash
 from dash.dependencies import ALL, Input, Output, State
 from dash.exceptions import PreventUpdate
@@ -125,9 +126,11 @@ def create_figure(data, att_values, label_values, height):
     graph_labels[x_att] = x_lab if (x_att and x_lab) else x_att
 
     y_att = attributes[go.y_att]
+    print(y_att)
     y_lab = labels[go.y_lab]
     graph_labels[y_att] = y_lab if (y_att and y_lab) else y_att
 
+    print(x_att, y_att)
     # create the scatter plot
     figure = px.scatter(
         df,
@@ -147,14 +150,23 @@ def create_figure(data, att_values, label_values, height):
     Output("container-button-basic", "children"),
     Input(graph.buttons_id, "n_clicks"),
     Input(store_id, "data"),
+    State({"type": go.att_drop, "index": ALL}, "value"),
 )
-def store_data_locally_to_share(data, data2):
+def store_data_locally_to_share(data, data2, att_values):
     global name_counter
     ctx = dash.callback_context
     if not ctx.triggered:
         print("Initial one")
         return "Sharing link will be available here"
     print("storing file")
+    attributes = dict(zip(go.attributes, att_values))
+
+    x_att = attributes[go.x_att]
+    y_att = attributes[go.y_att]
+    if not x_att:
+        x_att = ""
+    if not y_att:
+        y_att = ""
     name_counter = name_counter + 1
     a_file = open(str(name_counter) + ".pkl", "wb+")
 
@@ -164,4 +176,9 @@ def store_data_locally_to_share(data, data2):
     a_file = open(str(name_counter) + ".pkl", "rb")
     output = pickle.load(a_file)
     print(output)
-    return "http://cmyplot.herokuapp.com/share/" + str(name_counter) + "/X0/X1"
+    baseAddress = "http://cmyplot.herokuapp.com"
+
+    if __debug__:
+        baseAddress = "127.0.0.1:8080"
+
+    return baseAddress + "/share/" + str(name_counter) + "/" + x_att + "/" + y_att

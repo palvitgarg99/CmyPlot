@@ -9,6 +9,7 @@ filename = ""
 
 
 def make_graph():
+    global yaxis, xaxis
     if filename != "":
         try:
             a_file = open(filename, "rb")
@@ -18,9 +19,17 @@ def make_graph():
             if output == None:
                 return px.scatter()
             df = pd.DataFrame(output["df"])
+            if yaxis == "":
+                yaxis = None
+            if xaxis == "":
+                xaxis = None
 
-            if xaxis != "" and yaxis != "":
-                figure = px.scatter(x=df[xaxis], y=df[yaxis])
+            figure = px.scatter(
+                df,
+                x=xaxis,
+                y=yaxis,
+            )
+
             a_file.close()
             return figure
         except Exception as e:
