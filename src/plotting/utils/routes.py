@@ -55,7 +55,11 @@ def handle_routes(pathname):
             Content of page to return to the view
     """
     pathlist = pathname.split("/")
-    pathname = "/" + pathlist[1]
+    if len(pathlist) >= 2:
+        pathname = "/" + pathlist[1]
+    else:
+        pathname = pathlist[0]
+    print(pathname, pathlist)
 
     if pathname == "/" or pathname == home.path:
         return home.layout
