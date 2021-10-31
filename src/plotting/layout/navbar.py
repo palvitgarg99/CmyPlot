@@ -11,11 +11,24 @@ from src.plotting.pages.graph import graph
 # set contansts
 toggler = 'id-navbar-toggler'
 collapse = 'id-navbar-collapse'
+LOGO = "https://images.plot.ly/logo/new-branding/plotly-logomark.png"
 
 navbar = dbc.Navbar(
     dbc.Container(
         [
-            dbc.Col(dbc.NavbarBrand("CmyPlot", href="/"), sm=3, md=2),
+            html.A(
+                dbc.Row(
+                    [
+                        dbc.Col(html.Img(src=LOGO, height="30px")),
+                        dbc.Col(dbc.NavbarBrand("CmyPlot", className="ms-2")),
+                    ],
+                    align="center",
+                    className="g-0",
+                ),
+                href="/",
+                style={"textDecoration": "none"},
+            ),
+            dbc.NavbarToggler(id="navbar-toggler2"),
             dbc.Col(
                 dbc.Nav(
                     dbc.Container(dbc.NavItem(dbc.NavLink(home.title,
@@ -52,6 +65,7 @@ navbar = dbc.Navbar(
     ),
     color="dark",
     dark=True,
+    sticky='fixed'
 )
 
 # navbar = dbc.Navbar(
