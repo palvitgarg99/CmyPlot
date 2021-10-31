@@ -17,15 +17,15 @@ import src.plotting.pages.graph.graph_callbacks
 server = app.server
 
 # site endpoint
-if __name__ == '__main__':
-    my_parser = argparse.ArgumentParser(description='CmyPlot')
+if __name__ == "__main__":
+    my_parser = argparse.ArgumentParser(description="CmyPlot")
     my_parser.add_argument(
-        '--host',
-        action='store',
-        default='127.0.0.1',
+        "--host",
+        action="store",
+        default="127.0.0.1",
         type=str,
-        metavar='host address',
-        help='Host address where the website has to be deployed'
+        metavar="host address",
+        help="Host address where the website has to be deployed",
     )
     args = my_parser.parse_args()
 
@@ -34,8 +34,7 @@ if __name__ == '__main__':
             host=args.host,
             port=APP_PORT,
             debug=True,
-            dev_tools_props_check=DEV_TOOLS_PROPS_CHECK
+            dev_tools_props_check=DEV_TOOLS_PROPS_CHECK,
         )
     else:
         serve(server, host="127.0.0.1", port=8080)
-

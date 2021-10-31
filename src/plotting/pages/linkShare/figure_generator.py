@@ -17,7 +17,7 @@ def make_graph():
 
             if output == None:
                 return px.scatter()
-            df = pd.DataFrame(output['df'])
+            df = pd.DataFrame(output["df"])
 
             if xaxis != "" and yaxis != "":
                 figure = px.scatter(x=df[xaxis], y=df[yaxis])

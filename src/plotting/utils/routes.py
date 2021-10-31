@@ -16,9 +16,9 @@ server = app.server
 
 
 @app.callback(
-    Output(navbar.collapse, 'is_open'),
-    Input(navbar.toggler, 'n_clicks'),
-    State(navbar.collapse, 'is_open')
+    Output(navbar.collapse, "is_open"),
+    Input(navbar.toggler, "n_clicks"),
+    State(navbar.collapse, "is_open"),
 )
 def navbar_toggle(clicks, is_open):
     """Handle the collapsible function of the navbar
@@ -40,10 +40,7 @@ def navbar_toggle(clicks, is_open):
     return is_open
 
 
-@app.callback(
-    Output('page-content', 'children'),
-    Input('url', 'pathname')
-)
+@app.callback(Output("page-content", "children"), Input("url", "pathname"))
 def handle_routes(pathname):
     """Handle routing the application from page to page
 
@@ -57,10 +54,10 @@ def handle_routes(pathname):
         layout: dash.html.Div
             Content of page to return to the view
     """
-    pathlist = pathname.split('/')
-    pathname = '/' + pathlist[1]
+    pathlist = pathname.split("/")
+    pathname = "/" + pathlist[1]
 
-    if pathname == '/' or pathname == home.path:
+    if pathname == "/" or pathname == home.path:
         return home.layout
     elif pathname == upload.path:
         return upload.layout
@@ -68,9 +65,10 @@ def handle_routes(pathname):
         return table.layout
     elif pathname == graph.path:
         return graph.layout
-    elif pathname == '/share':
+    elif pathname == "/share":
         if len(pathlist) == 5:
             from src.plotting.pages.linkShare import figure_generator
+
             figure_generator.filename = pathlist[2] + ".pkl"
             figure_generator.xaxis = pathlist[3]
             figure_generator.yaxis = pathlist[4]
