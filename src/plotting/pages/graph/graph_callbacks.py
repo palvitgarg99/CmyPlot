@@ -87,8 +87,9 @@ def fetch_columns_from_data(data):
     Input({"type": go.att_drop, "index": ALL}, "value"),
     Input({"type": go.label_input, "index": ALL}, "value"),
     Input(go.graph_height, "value"),
+    Input(go.graph_type, "value"),
 )
-def create_figure(data, att_values, label_values, height):
+def create_figure(data, att_values, label_values, height, graph_type):
     """Handle options for graph option dropdowns
 
     Parameters
@@ -101,6 +102,8 @@ def create_figure(data, att_values, label_values, height):
             List of values for various labels
         height: int
             Height of graph in pixels
+        graph_type: String
+            Type of graph
 
     Returns
     ----------
@@ -131,6 +134,7 @@ def create_figure(data, att_values, label_values, height):
     graph_labels[y_att] = y_lab if (y_att and y_lab) else y_att
 
     print(x_att, y_att)
+    print("graph type:", graph_type)
     # create the scatter plot
     figure = px.scatter(
         df,
