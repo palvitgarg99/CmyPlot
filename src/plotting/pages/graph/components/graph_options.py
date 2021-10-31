@@ -93,7 +93,10 @@ card = dbc.Card(
                     html.Hr(),
                     html.H4("Other"),
                     html.H6("Graph Type:"),
-                    dcc.Dropdown(id=graph_type, disabled=True),
+                    dcc.Dropdown(id=graph_type, options=[
+                        {'label': 'Scatter Plot', 'value':'Scatter Plot'},
+                        {'label': 'Line Chart','value':'Line Chart'}
+                    ]),
                     html.H6("Height (px):"),
                     dcc.Input(
                         id=graph_height,
