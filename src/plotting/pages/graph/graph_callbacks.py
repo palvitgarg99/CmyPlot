@@ -136,17 +136,37 @@ def create_figure(data, att_values, label_values, height, graph_type):
     print(x_att, y_att)
     print("graph type:", graph_type)
     # create the scatter plot
-    figure = px.scatter(
-        df,
-        x=x_att,
-        y=y_att,
-        size=attributes[go.size],
-        color=attributes[go.color],
-        title=labels[go.title],
-        labels=graph_labels,
-        height=height,
-    )
-
+    if graph_type == "Line Chart":
+        figure = px.line(
+            df,
+            x=x_att,
+            y=y_att,
+            title=labels[go.title],
+            labels=graph_labels,
+            height=height,
+        )
+    elif graph_type == "Scatter Plot":
+        figure = px.scatter(
+            df,
+            x=x_att,
+            y=y_att,
+            size=attributes[go.size],
+            color=attributes[go.color],
+            title=labels[go.title],
+            labels=graph_labels,
+            height=height,
+        )
+    else:
+        figure = px.scatter(
+            df,
+            x=x_att,
+            y=y_att,
+            size=attributes[go.size],
+            color=attributes[go.color],
+            title=labels[go.title],
+            labels=graph_labels,
+            height=height,
+        )
     return figure
 
 
