@@ -87,7 +87,7 @@ def fetch_columns_from_data(data):
     Input({"type": go.att_drop, "index": ALL}, "value"),
     Input({"type": go.label_input, "index": ALL}, "value"),
     Input(go.graph_height, "value"),
-    Input(go.graph_type, "value")
+    Input(go.graph_type, "value"),
 )
 def create_figure(data, att_values, label_values, height, graph_type):
     """Handle options for graph option dropdowns
