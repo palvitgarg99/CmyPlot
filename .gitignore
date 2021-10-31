@@ -134,6 +134,3 @@ project1_env/
 cache-directory
 
 project1.egg-info
-src/plotting/environment/settings.py
-.idea/CmyPlot.iml
-.idea/misc.xml
