@@ -15,7 +15,7 @@ assets_path = os.path.join(
 # create app
 app = dash.Dash(
     __name__,
-    external_stylesheets=[dbc.icons.FONT_AWESOME],
+    external_stylesheets=[dbc.icons.FONT_AWESOME, dbc.themes.BOOTSTRAP],
     suppress_callback_exceptions=True,
     title='CmyPlot',
     assets_folder=assets_path
