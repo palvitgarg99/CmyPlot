@@ -102,6 +102,8 @@ def create_figure(data, att_values, label_values, height, graph_type):
             List of values for various labels
         height: int
             Height of graph in pixels
+        graph_type: String
+            Type of graph
 
     Returns
     ----------
