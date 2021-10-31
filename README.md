@@ -2,15 +2,16 @@
 **Data Visualisation Web App** 
 
 
-![GitHub](https://img.shields.io/github/license/bradley-erickson/CmyPlot)
+![GitHub](https://img.shields.io/github/license/ShreeSub/CmyPlot)
 [![DOI](https://zenodo.org/badge/402902282.svg)](https://zenodo.org/badge/latestdoi/402902282)
 ![example event parameter](https://github.com/bradley-erickson/project1/actions/workflows/python-app.yml/badge.svg?event=push)
 ![Github](https://img.shields.io/badge/language-python-red.svg)
-![GitHub issues](https://img.shields.io/github/issues-raw/bradley-erickson/CmyPlot)
-![Github closes issues](https://img.shields.io/github/issues-closed-raw/bradley-erickson/CmyPlot)
-![Github pull requests](https://img.shields.io/github/issues-pr/bradley-erickson/CmyPlot)
-![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/bradley-erickson/CmyPlot)
+![GitHub issues](https://img.shields.io/github/issues-raw/ShreeSub/CmyPlot)
+![Github closes issues](https://img.shields.io/github/issues-closed-raw/ShreeSub/CmyPlot)
+![Github pull requests](https://img.shields.io/github/issues-pr/ShreeSub/CmyPlot)
+![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/ShreeSub/CmyPlot)
 [![codecov](https://codecov.io/gh/bradley-erickson/CmyPlot/branch/main/graph/badge.svg?token=PYRZHGZC5R)](https://codecov.io/gh/bradley-erickson/CmyPlot)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Why Data Visualization?
 
@@ -140,10 +141,6 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
      - Build the virtual environment:
 
         `pip install -r requirements.txt`
-
-     - Install CmyPlot as package, this step is required due to the testing framework:
-
-        `pip install -e .`
   
      - Run:
      
