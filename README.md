@@ -140,10 +140,6 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
      - Build the virtual environment:
 
         `pip install -r requirements.txt`
-
-     - Install CmyPlot as package, this step is required due to the testing framework:
-
-        `pip install -e .`
   
      - Run:
      
