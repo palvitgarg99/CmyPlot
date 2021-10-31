@@ -11,6 +11,7 @@
 ![Github pull requests](https://img.shields.io/github/issues-pr/ShreeSub/CmyPlot)
 ![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/ShreeSub/CmyPlot)
 [![codecov](https://codecov.io/gh/bradley-erickson/CmyPlot/branch/main/graph/badge.svg?token=PYRZHGZC5R)](https://codecov.io/gh/bradley-erickson/CmyPlot)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Why Data Visualization?
 
