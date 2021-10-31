@@ -2,14 +2,14 @@
 **Data Visualisation Web App** 
 
 
-![GitHub](https://img.shields.io/github/license/bradley-erickson/CmyPlot)
+![GitHub](https://img.shields.io/github/license/ShreeSub/CmyPlot)
 [![DOI](https://zenodo.org/badge/402902282.svg)](https://zenodo.org/badge/latestdoi/402902282)
 ![example event parameter](https://github.com/bradley-erickson/project1/actions/workflows/python-app.yml/badge.svg?event=push)
 ![Github](https://img.shields.io/badge/language-python-red.svg)
-![GitHub issues](https://img.shields.io/github/issues-raw/bradley-erickson/CmyPlot)
-![Github closes issues](https://img.shields.io/github/issues-closed-raw/bradley-erickson/CmyPlot)
-![Github pull requests](https://img.shields.io/github/issues-pr/bradley-erickson/CmyPlot)
-![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/bradley-erickson/CmyPlot)
+![GitHub issues](https://img.shields.io/github/issues-raw/ShreeSub/CmyPlot)
+![Github closes issues](https://img.shields.io/github/issues-closed-raw/ShreeSub/CmyPlot)
+![Github pull requests](https://img.shields.io/github/issues-pr/ShreeSub/CmyPlot)
+![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/ShreeSub/CmyPlot)
 [![codecov](https://codecov.io/gh/bradley-erickson/CmyPlot/branch/main/graph/badge.svg?token=PYRZHGZC5R)](https://codecov.io/gh/bradley-erickson/CmyPlot)
 
 ## Why Data Visualization?
