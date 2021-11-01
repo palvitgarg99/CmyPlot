@@ -3,14 +3,14 @@
 
 
 ![GitHub](https://img.shields.io/github/license/ShreeSub/CmyPlot)
-[![DOI](https://zenodo.org/badge/402902282.svg)](https://zenodo.org/badge/latestdoi/402902282)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5634725.svg)](https://doi.org/10.5281/zenodo.5634725)
 ![example event parameter](https://github.com/bradley-erickson/project1/actions/workflows/python-app.yml/badge.svg?event=push)
 ![Github](https://img.shields.io/badge/language-python-red.svg)
 ![GitHub issues](https://img.shields.io/github/issues-raw/ShreeSub/CmyPlot)
 ![Github closes issues](https://img.shields.io/github/issues-closed-raw/ShreeSub/CmyPlot)
 ![Github pull requests](https://img.shields.io/github/issues-pr/ShreeSub/CmyPlot)
 ![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/ShreeSub/CmyPlot)
-[![codecov](https://codecov.io/gh/bradley-erickson/CmyPlot/branch/main/graph/badge.svg?token=PYRZHGZC5R)](https://codecov.io/gh/bradley-erickson/CmyPlot)
+[![codecov](https://codecov.io/gh/ShreeSub/CmyPlot/branch/main/graph/badge.svg?token=R0VY8JQO96)](https://codecov.io/gh/ShreeSub/CmyPlot)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Why Data Visualization?
