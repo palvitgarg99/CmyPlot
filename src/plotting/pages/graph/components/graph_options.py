@@ -49,7 +49,6 @@ def create_attribute_dropdown(attributes, id):
         children.append(
             dcc.Dropdown(id={"type": id, "index": i}, className="dash-bootstrap")
         )
-
     return children
 
 
@@ -76,7 +75,6 @@ def create_label_dropdown(labels, id):
                 id={"type": id, "index": i}, type="text", className="dash-bootstrap"
             )
         )
-
     return children
 
 
@@ -99,7 +97,7 @@ card = dbc.Card(
                             {"label": "Scatter Plot", "value": "Scatter Plot"},
                             {"label": "Line Chart", "value": "Line Chart"},
                             {"label": "Bar Graph", "value": "Bar Graph"},
-                            {"label": "Funnel Plot", "value": "Funnel Plot"}
+                            {"label": "Funnel Plot", "value": "Funnel Plot"},
                         ],
                     ),
                     html.H6("Height (px):"),
