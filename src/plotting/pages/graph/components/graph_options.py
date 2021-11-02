@@ -98,6 +98,8 @@ card = dbc.Card(
                         options=[
                             {"label": "Scatter Plot", "value": "Scatter Plot"},
                             {"label": "Line Chart", "value": "Line Chart"},
+                            {"label": "Bar Graph", "value": "Bar Graph"},
+                            {"label": "Funnel Plot", "value": "Funnel Plot"}
                         ],
                     ),
                     html.H6("Height (px):"),
