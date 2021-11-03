@@ -40,16 +40,16 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
     <td valign="left"> 
       <p style="color: #FF7A59"> 1.This is the main Cmyplot web page 
       </p>
-      <a href="./docs/images/home_page.png"> 
-        <img src="./docs/images/home_page.png" >      
+      <a href="./docs/images/home_page_updated.png"> 
+        <img src="./docs/images/home_page_updated.png" >      
       </a>
     </td>
     <td valign="left"> 
       <p style="color: #FF7A59"> 2.You have an option to upload your csv file 
         by Drag and drop or click
       </p>
-      <a href="./docs/images/pre_upload.png">
-        <img src="./docs/images/pre_upload.png"> 
+      <a href="./docs/images/pre_upload_updated.png">
+        <img src="./docs/images/pre_upload_updated.png"> 
       </a>
     </td>
   </tr>
@@ -59,16 +59,16 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
       <p style="color: #FF7A59"> 3.Once the file is uploaded, you can choose
          to visulaize using either table or graph
       </p>  
-      <a href="./docs/images/post_upload.png">
-        <img src="./docs/images/post_upload.png">    
+      <a href="./docs/images/post_upload_updated.png">
+        <img src="./docs/images/post_upload_updated.png">    
       </a>
     </td>
     <td valign="left"> 
       <p style="color: #FF7A59"> 4.For table, you could use 
       filters to sort the data as you want
       </p>
-      <a href="./docs/images/table.png">
-        <img src="./docs/images/table.png">          
+      <a href="./docs/images/table_updated.png">
+        <img src="./docs/images/table_updated.png">          
       </a>
     </td>
 
@@ -78,15 +78,15 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
     <td valign="left">
      <p style="color: #FF7A59"> 5.Table representation of the data
       </p>
-     <a href="./docs/images/table_filtered.png">
-        <img src="./docs/images/table_filtered.png"> 
+     <a href="./docs/images/table_filtered_updated.png">
+        <img src="./docs/images/table_filtered_updated.png"> 
       </a> 
     </td> 
     <td valign="left">
      <p style="color: #FF7A59"> 6.Graph representation of the data
       </p>
-     <a href="./docs/images/graph_filled.png">
-        <img src="./docs/images/graph_filled.png"> 
+     <a href="./docs/images/graph_filled_updated.png">
+        <img src="./docs/images/graph_filled_updated.png"> 
       </a> 
     </td> 
   </tr> 
