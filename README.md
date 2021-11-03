@@ -83,7 +83,7 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
       </a> 
     </td> 
     <td valign="left">
-     <p style="color: #FF7A59"> 6.Graph representation of the data. Here you get an option to share a link of the graph or download graph as an image.
+     <p style="color: #FF7A59"> 6.Graph representation of the data. Here you get options to chose among multiple graph types and a sharable link to share or download the graph.
       </p>
      <a href="./docs/images/graph_filled_updated.png">
         <img src="./docs/images/graph_filled_updated.png"> 
