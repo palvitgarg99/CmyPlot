@@ -57,7 +57,7 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
   <tr style="background: #010203;"> 
     <td valign="left">
       <p style="color: #FF7A59"> 3.Once the file is uploaded, you can choose
-         to visulaize using either table or graph
+         to visualize using either table or graph
       </p>  
       <a href="./docs/images/post_upload_updated.png">
         <img src="./docs/images/post_upload_updated.png">    
@@ -65,7 +65,7 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
     </td>
     <td valign="left"> 
       <p style="color: #FF7A59"> 4.For table, you could use 
-      filters to sort the data as you want
+      filters to sort the data as you want and select number of entries you want to display
       </p>
       <a href="./docs/images/table_updated.png">
         <img src="./docs/images/table_updated.png">          
@@ -83,7 +83,7 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
       </a> 
     </td> 
     <td valign="left">
-     <p style="color: #FF7A59"> 6.Graph representation of the data
+     <p style="color: #FF7A59"> 6.Graph representation of the data. Here you get an option to share a link of the graph or download graph as an image.
       </p>
      <a href="./docs/images/graph_filled_updated.png">
         <img src="./docs/images/graph_filled_updated.png"> 
