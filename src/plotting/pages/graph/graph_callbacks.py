@@ -156,6 +156,26 @@ def create_figure(data, att_values, label_values, height, graph_type):
             labels=graph_labels,
             height=height,
         )
+    elif graph_type == "Bar Graph":
+        figure = px.bar(
+            df,
+            x=x_att,
+            y=y_att,
+            color=attributes[go.color],
+            title=labels[go.title],
+            labels=graph_labels,
+            height=height,
+        )
+    elif graph_type == "Funnel Plot":
+        figure = px.funnel(
+            df,
+            x=x_att,
+            y=y_att,
+            color=attributes[go.color],
+            title=labels[go.title],
+            labels=graph_labels,
+            height=height,
+        )
     else:
         figure = px.scatter(
             df,
@@ -200,6 +220,7 @@ def store_data_locally_to_share(data, data2, att_values):
     a_file = open(str(name_counter) + ".pkl", "rb")
     output = pickle.load(a_file)
     print(output)
+
     
     '''
     if __debug__:

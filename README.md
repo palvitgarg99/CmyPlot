@@ -29,6 +29,10 @@ As the famous saying goes - `"The greatest value of visualization is when it for
 
 - **Language used:** Python
 - **Libraries used:** Flask, Plotly, Dash
+- **Development/ Debug Server:** Flask
+- **Production Server:** Waitress
+- **Deployment Platform:** Heroku <br><br>
+**Note:** The application has been deployed on Heroku (free platform service). The app's usage is limited to monthly pool of free dyno hours. Also, free apps sleep automatically after 30 mins of inactivity to conserve your dyno hours.
 ## Visual Walkthrough:
 https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-876c-3f5ff7d86e38.mp4
 
@@ -40,16 +44,16 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
     <td valign="left"> 
       <p style="color: #FF7A59"> 1.This is the main Cmyplot web page 
       </p>
-      <a href="./docs/images/home_page.png"> 
-        <img src="./docs/images/home_page.png" >      
+      <a href="./docs/images/home_page_updated.png"> 
+        <img src="./docs/images/home_page_updated.png" >      
       </a>
     </td>
     <td valign="left"> 
       <p style="color: #FF7A59"> 2.You have an option to upload your csv file 
         by Drag and drop or click
       </p>
-      <a href="./docs/images/pre_upload.png">
-        <img src="./docs/images/pre_upload.png"> 
+      <a href="./docs/images/pre_upload_updated.png">
+        <img src="./docs/images/pre_upload_updated.png"> 
       </a>
     </td>
   </tr>
@@ -57,18 +61,18 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
   <tr style="background: #010203;"> 
     <td valign="left">
       <p style="color: #FF7A59"> 3.Once the file is uploaded, you can choose
-         to visulaize using either table or graph
+         to visualize using either table or graph
       </p>  
-      <a href="./docs/images/post_upload.png">
-        <img src="./docs/images/post_upload.png">    
+      <a href="./docs/images/post_upload_updated.png">
+        <img src="./docs/images/post_upload_updated.png">    
       </a>
     </td>
     <td valign="left"> 
       <p style="color: #FF7A59"> 4.For table, you could use 
-      filters to sort the data as you want
+      filters to sort the data as you want and select number of entries you want to display
       </p>
-      <a href="./docs/images/table.png">
-        <img src="./docs/images/table.png">          
+      <a href="./docs/images/table_updated.png">
+        <img src="./docs/images/table_updated.png">          
       </a>
     </td>
 
@@ -78,15 +82,15 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
     <td valign="left">
      <p style="color: #FF7A59"> 5.Table representation of the data
       </p>
-     <a href="./docs/images/table_filtered.png">
-        <img src="./docs/images/table_filtered.png"> 
+     <a href="./docs/images/table_filtered_updated.png">
+        <img src="./docs/images/table_filtered_updated.png"> 
       </a> 
     </td> 
     <td valign="left">
-     <p style="color: #FF7A59"> 6.Graph representation of the data
+     <p style="color: #FF7A59"> 6.Graph representation of the data. Here you get options to chose among multiple graph types and a sharable link to share or download the graph.
       </p>
-     <a href="./docs/images/graph_filled.png">
-        <img src="./docs/images/graph_filled.png"> 
+     <a href="./docs/images/graph_filled_updated.png">
+        <img src="./docs/images/graph_filled_updated.png"> 
       </a> 
     </td> 
   </tr> 
@@ -151,16 +155,17 @@ https://user-images.githubusercontent.com/65619749/134620802-5fac9f0e-d697-49df-
 
      ## Roadmap
        - [List of Roadmap and their corresponding open issues](https://github.com/bradley-erickson/CmyPlot/issues/48)
+
 ## Team Members
-[Bradley Erickson](https://github.com/bradley-erickson)
+[Aditi Bhagwat](https://github.com/aditi12200)
 
-[Aakriti Aakriti](https://github.com/aakriti0fnu)
+[Anumit Garg](https://github.com/anumitgarg)
 
-[Sharath Kumar](https://github.com/sharathKV)
+[Palvit Garg](https://github.com/palvitgarg99)
 
-[AshwinKumarMuniswamy](https://github.com/AshwinKumarMuniswamy)
+[Rachit Sharma](https://github.com/elric97)
 
-[Jainam Shah](https://github.com/j-08-shah)
+[Shree Ramasubramanian](https://github.com/ShreeSub)
 
 [Palvit Garg](https://github.com/palvitgarg99)
 
