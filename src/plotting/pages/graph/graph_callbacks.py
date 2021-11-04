@@ -221,9 +221,12 @@ def store_data_locally_to_share(data, data2, att_values):
     output = pickle.load(a_file)
     print(output)
 
+    
+    '''
     if __debug__:
         baseAddress = "127.0.0.1:8080"
     else:
-        baseAddress = "http://cmyplot.herokuapp.com"
+    '''
+    baseAddress = "http://cmyplot.herokuapp.com"
 
     return baseAddress + "/share/" + str(name_counter) + "/" + x_att + "/" + y_att
